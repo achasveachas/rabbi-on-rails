@@ -21,3 +21,51 @@
   font-size: 2rem;     
   font-weight: 700;     
 }
+
+/* ==========================================================================
+   GRID POLISH
+   ========================================================================== */
+
+/* 1. Responsive Grid (Auto-adjusts columns based on screen size) */
+.entries-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+  gap: 1rem;
+}
+.entries-grid .grid__item {
+  width: 100% !important; 
+  margin: 0 !important;
+}
+
+/* 2. The Card Background & Hover Lift */
+.archive__item {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle resting shadow */
+  border: 1px solid #eaeaea; 
+  border-radius: 10px; /* Modern rounded corners */
+  overflow: hidden; /* Traps the image inside the rounded corners */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth animation */
+  height: 100%;
+}
+.archive__item:hover {
+  transform: translateY(-5px); /* Pops up slightly */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12); /* Darkens the shadow */
+}
+
+/* 3. Image & Text Spacing */
+.archive__item-teaser img {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+}
+.archive__item-title,
+.page__meta,
+.archive__item-excerpt {
+  padding: 0 1.25rem; /* Pushes text inward away from the card edges */
+}
+.archive__item-title {
+  margin-top: 1.25rem;
+  font-size: 1.2rem;
+}
+.archive__item-excerpt {
+  margin-bottom: 1.25rem;
+}
