@@ -2,6 +2,7 @@
 # 1. SITE DATA
 # ==============================================================================
 title: Rabbi On Rails
+logo: /assets/images/logo.png
 email: contact@yechiel.me
 description: >- 
   Rabbi on Rails: where I pontificate on matters related to Judaism, tech, career, ethical AI and more.
@@ -28,18 +29,18 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/achasveachas"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yechiel-k"
     - label: "Dev.to"
       icon: "fab fa-fw fa-dev"
       url: "https://dev.to/yechielk"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yechiel-k"
 
 # ==============================================================================
 # 3. THEME SETTINGS (Minimal Mistakes)
 # ==============================================================================
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "contrast"
 search: true
 search_provider: lunr
 

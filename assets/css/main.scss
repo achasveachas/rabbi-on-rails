@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}"; 
+@import "minimal-mistakes";
+
+/* ==========================================================================
+   YOUR CUSTOM OVERRIDES
+   ========================================================================== */
+
+/* Custom Header Styling */
+.site-logo img {
+  max-height: 5rem;
+  height: auto;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.site-title {
+  font-size: 2rem;     
+  font-weight: 700;     
+}
