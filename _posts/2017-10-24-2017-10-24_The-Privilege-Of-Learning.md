@@ -1,7 +1,7 @@
 ---
 title: "The Privilege Of Learning"
 date: 2017-10-24 01:39:00 +0000
-permalink: /2017-10-24_The-Privilege-Of-Learning-96fbe43726fe
+permalink: /the-privilege-of-learning-96fbe43726fe
 header:
   teaser: /assets/images/posts/2017-10-24-2017-10-24_The-Privilege-Of-Learning-0.jpeg
 tags:

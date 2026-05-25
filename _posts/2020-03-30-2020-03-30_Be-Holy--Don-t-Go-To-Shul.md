@@ -1,7 +1,7 @@
 ---
 title: "Be Holy, Don’t Go To Shul"
 date: 2020-03-30 17:07:36 +0000
-permalink: /2020-03-30_Be-Holy--Don-t-Go-To-Shul-c24b03f27fc0
+permalink: /be-holy-dont-go-to-shul-c24b03f27fc0
 header:
   teaser: /assets/images/posts/2020-03-30-2020-03-30_Be-Holy--Don-t-Go-To-Shul-0.jpg
 tags:

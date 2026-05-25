@@ -1,7 +1,7 @@
 ---
 title: "Show Your Gratitude"
 date: 2020-01-30 22:11:37 +0000
-permalink: /2020-01-30_Show-Your-Gratitude-a6bbc13862f8
+permalink: /show-your-gratitude-a6bbc13862f8
 header:
   teaser: /assets/images/posts/2020-01-30-2020-01-30_Show-Your-Gratitude-0.jpeg
 tags:

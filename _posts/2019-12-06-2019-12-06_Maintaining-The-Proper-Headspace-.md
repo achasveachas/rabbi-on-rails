@@ -1,7 +1,7 @@
 ---
 title: "Maintaining The Proper Headspace."
 date: 2019-12-06 14:18:24 +0000
-permalink: /2019-12-06_Maintaining-The-Proper-Headspace--ee752a3bef2d
+permalink: /maintaining-the-proper-headspace-ee752a3bef2d
 header:
   teaser: /assets/images/posts/2019-12-06-2019-12-06_Maintaining-The-Proper-Headspace--0.jpg
 tags:

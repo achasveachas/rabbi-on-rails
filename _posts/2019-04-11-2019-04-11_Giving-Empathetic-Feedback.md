@@ -1,7 +1,7 @@
 ---
 title: "Giving Empathetic Feedback"
 date: 2019-04-11 16:36:00 +0000
-permalink: /2019-04-11_Giving-Empathetic-Feedback-d01802fe5827
+permalink: /giving-empathetic-feedback-d01802fe5827
 header:
   teaser: /assets/images/posts/2019-04-11-2019-04-11_Giving-Empathetic-Feedback-0.jpg
 tags:

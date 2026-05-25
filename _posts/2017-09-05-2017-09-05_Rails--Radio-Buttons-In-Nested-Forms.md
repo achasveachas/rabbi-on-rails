@@ -1,7 +1,7 @@
 ---
 title: "Rails: Radio Buttons In Nested Forms"
 date: 2017-09-05 00:20:13 +0000
-permalink: /2017-09-05_Rails--Radio-Buttons-In-Nested-Forms-4f252ae8cf53
+permalink: /rails-radio-tags-in-nested-forms-4f252ae8cf53
 header:
   teaser: /assets/images/posts/2017-09-05-2017-09-05_Rails--Radio-Buttons-In-Nested-Forms-0.png
 tags:

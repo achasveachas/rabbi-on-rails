@@ -1,7 +1,7 @@
 ---
 title: "Talmudic Gems For Rails Developers"
 date: 2021-05-20 01:40:59 +0000
-permalink: /2021-05-20_Talmudic-Gems-For-Rails-Developers-77f6cb98c9ad
+permalink: /talmudic-gems-for-rails-developers-77f6cb98c9ad
 header:
   teaser: /assets/images/posts/2021-05-20-2021-05-20_Talmudic-Gems-For-Rails-Developers-0.jpg
 tags:

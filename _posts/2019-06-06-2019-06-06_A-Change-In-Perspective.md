@@ -1,7 +1,7 @@
 ---
 title: "A Change In Perspective"
 date: 2019-06-06 16:31:00 +0000
-permalink: /2019-06-06_A-Change-In-Perspective-ca1c8bb55b33
+permalink: /a-change-in-perspective-ca1c8bb55b33
 header:
   teaser: /assets/images/posts/2019-06-06-2019-06-06_A-Change-In-Perspective-0.jpg
 tags:

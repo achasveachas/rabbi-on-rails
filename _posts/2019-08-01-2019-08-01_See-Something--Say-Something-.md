@@ -1,7 +1,7 @@
 ---
 title: "See Something? Say Something!"
 date: 2019-08-01 00:01:01 +0000
-permalink: /2019-08-01_See-Something--Say-Something--cabb383576ca
+permalink: /speak-up-for-whats-right-cabb383576ca
 header:
   teaser: /assets/images/posts/2019-08-01-2019-08-01_See-Something--Say-Something--0.jpeg
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Parenthetically Speaking"
 date: 2017-10-27 00:50:46 +0000
-permalink: /2017-10-27_Parenthetically-Speaking-a275f86c833e
+permalink: /parenthetically-speaking-a275f86c833e
 header:
   teaser: /assets/images/posts/2017-10-27-2017-10-27_Parenthetically-Speaking-0.jpeg
 tags:

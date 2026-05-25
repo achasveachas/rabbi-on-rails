@@ -1,7 +1,7 @@
 ---
 title: "What’s The Point Of Pointers?"
 date: 2019-02-14 18:10:40 +0000
-permalink: /2019-02-14_What-s-The-Point-Of-Pointers--2dd3b64ec52a
+permalink: /whats-the-point-of-pointers-2dd3b64ec52a
 header:
   teaser: /assets/images/posts/2019-02-14-2019-02-14_What-s-The-Point-Of-Pointers--0.png
 tags:

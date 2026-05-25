@@ -1,7 +1,7 @@
 ---
 title: "Talmudic Truths For Programmers — The Lightning Edition"
 date: 2017-11-19 04:08:01 +0000
-permalink: /2017-11-19_Talmudic-Truths-For-Programmers---The-Lightning-Edition-eae71b3cfd6b
+permalink: /talmudic-truths-for-programmers-the-lightning-edition-eae71b3cfd6b
 header:
   teaser: /assets/images/posts/2017-11-19-2017-11-19_Talmudic-Truths-For-Programmers---The-Lightning-Edition-0.jpeg
 tags:

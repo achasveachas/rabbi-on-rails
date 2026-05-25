@@ -1,7 +1,7 @@
 ---
 title: "Glad you found it helpful!"
 date: 2019-03-19 00:50:17 +0000
-permalink: /2019-03-19_Glad-you-found-it-helpful--2134840174bc
+permalink: /glad-you-found-it-helpful-2134840174bc
 tags:
   - 
 categories:

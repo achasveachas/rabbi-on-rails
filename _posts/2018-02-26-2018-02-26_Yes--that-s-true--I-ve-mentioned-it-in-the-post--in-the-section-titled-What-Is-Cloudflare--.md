@@ -1,7 +1,7 @@
 ---
 title: "Yes, that’s true. I’ve mentioned it in the post (in the section titled What Is Cloudflare?)"
 date: 2018-02-26 00:49:36 +0000
-permalink: /2018-02-26_Yes--that-s-true--I-ve-mentioned-it-in-the-post--in-the-section-titled-What-Is-Cloudflare---7ac5d506273d
+permalink: /yes-thats-true-i-ve-mentioned-it-in-the-post-in-the-section-titled-what-is-cloudflare-7ac5d506273d
 tags:
   - 
 categories:

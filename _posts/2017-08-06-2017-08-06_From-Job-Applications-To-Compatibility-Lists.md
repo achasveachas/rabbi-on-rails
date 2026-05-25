@@ -1,7 +1,7 @@
 ---
 title: "From Job Applications To Compatibility Lists"
 date: 2017-08-06 16:55:06 +0000
-permalink: /2017-08-06_From-Job-Applications-To-Compatibility-Lists-6e6a2068a556
+permalink: /from-job-applications-to-compatibility-lists-6e6a2068a556
 header:
   teaser: /assets/images/posts/2017-08-06-2017-08-06_From-Job-Applications-To-Compatibility-Lists-0.png
 tags:

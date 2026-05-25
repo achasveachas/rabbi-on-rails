@@ -1,7 +1,7 @@
 ---
 title: "I don’t think saying “I did it, so can you” is inherently a bad thing, it can definitely be…"
 date: 2018-03-21 15:31:01 +0000
-permalink: /2018-03-21_I-don-t-think-saying--I-did-it--so-can-you--is-inherently-a-bad-thing--it-can-definitely-be--352ed1e6e8a2
+permalink: /i-dont-think-saying-i-did-it-so-can-you-is-inherently-a-bad-thing-it-can-definitely-be-352ed1e6e8a2
 tags:
   - 
 categories:

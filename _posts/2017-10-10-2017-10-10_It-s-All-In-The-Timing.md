@@ -1,7 +1,7 @@
 ---
 title: "It’s All In The Timing"
 date: 2017-10-10 12:10:38 +0000
-permalink: /2017-10-10_It-s-All-In-The-Timing-f71238a13936
+permalink: /all-about-timing-attacks-f71238a13936
 header:
   teaser: /assets/images/posts/2017-10-10-2017-10-10_It-s-All-In-The-Timing-0.jpg
 tags:

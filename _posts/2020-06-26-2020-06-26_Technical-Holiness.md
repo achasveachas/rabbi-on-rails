@@ -1,7 +1,7 @@
 ---
 title: "Technical Holiness"
 date: 2020-06-26 03:51:03 +0000
-permalink: /2020-06-26_Technical-Holiness-970b427144f8
+permalink: /this-dvar-torah-was-originally-published-in-torah-tech-the-weekly-newsletter-i-publish-970b427144f8
 header:
   teaser: /assets/images/posts/2020-06-26-2020-06-26_Technical-Holiness-0.jpg
 tags:

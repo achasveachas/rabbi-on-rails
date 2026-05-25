@@ -1,7 +1,7 @@
 ---
 title: "Refactoring Your Bitachon: Moving From Monolith to Modular"
 date: 2025-12-22 17:04:12 +0000
-permalink: /2025-12-22_Refactoring-Your-Bitachon--Moving-From-Monolith-to-Modular-79c7a122a44d
+permalink: /decoupling-your-livelihood-79c7a122a44d
 header:
   teaser: /assets/images/posts/2025-12-22-2025-12-22_Refactoring-Your-Bitachon--Moving-From-Monolith-to-Modular-0.jpeg
 tags:

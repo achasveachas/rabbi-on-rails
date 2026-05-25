@@ -1,7 +1,7 @@
 ---
 title: "It’s a wonderful week…"
 date: 2016-12-06 06:02:25 +0000
-permalink: /2016-12-06_It-s-a-wonderful-week--163b46e9c871
+permalink: /its-a-wonderful-week-163b46e9c871
 header:
   teaser: /assets/images/posts/2016-12-06-2016-12-06_It-s-a-wonderful-week--0.jpeg
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "I Mentor Therefore I Am"
 date: 2019-05-16 18:09:09 +0000
-permalink: /2019-05-16_I-Mentor-Therefore-I-Am-64a2de8ecf92
+permalink: /mentoring-in-tech-64a2de8ecf92
 header:
   teaser: /assets/images/posts/2019-05-16-2019-05-16_I-Mentor-Therefore-I-Am-0.jpg
 tags:

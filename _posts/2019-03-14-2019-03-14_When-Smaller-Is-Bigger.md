@@ -1,7 +1,7 @@
 ---
 title: "When Smaller Is Bigger"
 date: 2019-03-14 16:51:02 +0000
-permalink: /2019-03-14_When-Smaller-Is-Bigger-50098276f108
+permalink: /when-smaller-is-bigger-50098276f108
 header:
   teaser: /assets/images/posts/2019-03-14-2019-03-14_When-Smaller-Is-Bigger-0.jpg
 tags:

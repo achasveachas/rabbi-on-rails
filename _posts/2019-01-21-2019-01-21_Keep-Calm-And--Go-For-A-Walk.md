@@ -1,7 +1,7 @@
 ---
 title: "Keep Calm And… Go For A Walk"
 date: 2019-01-21 00:26:44 +0000
-permalink: /2019-01-21_Keep-Calm-And--Go-For-A-Walk-73d82b0ea47a
+permalink: /keep-calm-and-go-for-a-walk-73d82b0ea47a
 header:
   teaser: /assets/images/posts/2019-01-21-2019-01-21_Keep-Calm-And--Go-For-A-Walk-0.jpg
 tags:

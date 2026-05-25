@@ -1,7 +1,7 @@
 ---
 title: "It should be your Twilio phone number."
 date: 2018-04-11 13:44:44 +0000
-permalink: /2018-04-11_It-should-be-your-Twilio-phone-number--c376d822e019
+permalink: /it-should-be-your-twilio-phone-number-c376d822e019
 tags:
   - 
 categories:

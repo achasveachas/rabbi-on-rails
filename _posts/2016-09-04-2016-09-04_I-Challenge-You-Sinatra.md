@@ -1,7 +1,7 @@
 ---
 title: "I Challenge You Sinatra"
 date: 2016-09-04 21:11:15 +0000
-permalink: /2016-09-04_I-Challenge-You-Sinatra-c6f875e29db7
+permalink: /i-challenge-you-sinatra-c6f875e29db7
 header:
   teaser: /assets/images/posts/2016-09-04-2016-09-04_I-Challenge-You-Sinatra-0.jpeg
 tags:

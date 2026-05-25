@@ -1,7 +1,7 @@
 ---
 title: "Learning with Learn"
 date: 2016-09-06 04:21:54 +0000
-permalink: /2016-09-06_Learning-with-Learn-9ac69c2d854f
+permalink: /learning-with-learn-9ac69c2d854f
 header:
   teaser: /assets/images/posts/2016-09-06-2016-09-06_Learning-with-Learn-0.jpeg
 tags:

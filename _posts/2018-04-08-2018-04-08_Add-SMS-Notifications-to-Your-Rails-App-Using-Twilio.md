@@ -1,7 +1,7 @@
 ---
 title: "Add SMS Notifications to Your Rails App Using Twilio"
 date: 2018-04-08 03:29:03 +0000
-permalink: /2018-04-08_Add-SMS-Notifications-to-Your-Rails-App-Using-Twilio-202671ca8b85
+permalink: /sms-notifications-ruby-on-rails-202671ca8b85
 header:
   teaser: /assets/images/posts/2018-04-08-2018-04-08_Add-SMS-Notifications-to-Your-Rails-App-Using-Twilio-0.jpg
 tags:

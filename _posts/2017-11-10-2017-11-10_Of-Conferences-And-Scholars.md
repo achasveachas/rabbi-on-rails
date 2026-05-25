@@ -1,7 +1,7 @@
 ---
 title: "Of Conferences And Scholars"
 date: 2017-11-10 01:23:41 +0000
-permalink: /2017-11-10_Of-Conferences-And-Scholars-c4280349e75a
+permalink: /of-conferences-and-scholars-c4280349e75a
 header:
   teaser: /assets/images/posts/2017-11-10-2017-11-10_Of-Conferences-And-Scholars-0.jpg
 tags:

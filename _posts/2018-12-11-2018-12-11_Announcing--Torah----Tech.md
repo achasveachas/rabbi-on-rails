@@ -1,7 +1,7 @@
 ---
 title: "Announcing: Torah && Tech"
 date: 2018-12-11 00:42:09 +0000
-permalink: /2018-12-11_Announcing--Torah----Tech-5dac9b4151ba
+permalink: /announcing-torah-tech-5dac9b4151ba
 header:
   teaser: /assets/images/posts/2018-12-11-2018-12-11_Announcing--Torah----Tech-1.jpg
 tags:

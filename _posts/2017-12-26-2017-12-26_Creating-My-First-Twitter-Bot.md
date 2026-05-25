@@ -1,7 +1,7 @@
 ---
 title: "Creating My First Twitter Bot"
 date: 2017-12-26 02:55:16 +0000
-permalink: /2017-12-26_Creating-My-First-Twitter-Bot-b5e0da5c8cbb
+permalink: /creating-my-first-twitter-bot-b5e0da5c8cbb
 header:
   teaser: /assets/images/posts/2017-12-26-2017-12-26_Creating-My-First-Twitter-Bot-0.png
 tags:

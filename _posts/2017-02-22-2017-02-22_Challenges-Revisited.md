@@ -1,7 +1,7 @@
 ---
 title: "Challenges Revisited"
 date: 2017-02-22 06:01:38 +0000
-permalink: /2017-02-22_Challenges-Revisited-33ae6ab648ae
+permalink: /challenges-revisited-33ae6ab648ae
 header:
   teaser: /assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-0.gif
 tags:

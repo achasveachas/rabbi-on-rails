@@ -1,7 +1,7 @@
 ---
 title: "Adding HTTPS To GitHub Pages Using A Custom Domain"
 date: 2018-02-04 02:34:18 +0000
-permalink: /2018-02-04_Adding-HTTPS-To-GitHub-Pages-Using-A-Custom-Domain-7e4ee8ab1c50
+permalink: /adding-https-to-github-pages-using-a-custom-domain-7e4ee8ab1c50
 header:
   teaser: /assets/images/posts/2018-02-04-2018-02-04_Adding-HTTPS-To-GitHub-Pages-Using-A-Custom-Domain-7.jpg
 tags:

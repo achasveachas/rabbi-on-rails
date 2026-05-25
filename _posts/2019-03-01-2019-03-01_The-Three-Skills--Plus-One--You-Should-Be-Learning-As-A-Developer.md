@@ -1,7 +1,7 @@
 ---
 title: "The Three Skills (Plus One) You Should Be Learning As A Developer"
 date: 2019-03-01 02:55:00 +0000
-permalink: /2019-03-01_The-Three-Skills--Plus-One--You-Should-Be-Learning-As-A-Developer-8d8266add63a
+permalink: /the-three-skills-plus-one-you-should-be-learning-as-a-developer-8d8266add63a
 header:
   teaser: /assets/images/posts/2019-03-01-2019-03-01_The-Three-Skills--Plus-One--You-Should-Be-Learning-As-A-Developer-2.jpg
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "It’s All In The Details"
 date: 2019-12-13 14:10:33 +0000
-permalink: /2019-12-13_It-s-All-In-The-Details-4d678511b8e0
+permalink: /its-all-in-the-details-4d678511b8e0
 header:
   teaser: /assets/images/posts/2019-12-13-2019-12-13_It-s-All-In-The-Details-0.jpg
 tags:

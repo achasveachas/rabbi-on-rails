@@ -1,7 +1,7 @@
 ---
 title: "A Tale Of Two Inaugurations"
 date: 2021-01-22 14:16:42 +0000
-permalink: /2021-01-22_A-Tale-Of-Two-Inaugurations-3a0f3e7a8632
+permalink: /a-tale-of-two-inaugurations-3a0f3e7a8632
 header:
   teaser: /assets/images/posts/2021-01-22-2021-01-22_A-Tale-Of-Two-Inaugurations-0.jpg
 tags:

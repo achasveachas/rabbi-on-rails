@@ -1,7 +1,7 @@
 ---
 title: "Elul, Our Annual Retro"
 date: 2019-08-30 00:07:12 +0000
-permalink: /2019-08-30_Elul--Our-Annual-Retro-ef28e1b6c703
+permalink: /elul-our-annual-retro-ef28e1b6c703
 header:
   teaser: /assets/images/posts/2019-08-30-2019-08-30_Elul--Our-Annual-Retro-0.jpg
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "The Story Behind The Project"
 date: 2019-04-07 20:03:07 +0000
-permalink: /2019-04-07_The-Story-Behind-The-Project-21248a23f6b6
+permalink: /portfolio-projects-21248a23f6b6
 header:
   teaser: /assets/images/posts/2019-04-07-2019-04-07_The-Story-Behind-The-Project-0.jpg
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Talmudic Truths For Programmers"
 date: 2017-11-30 01:23:56 +0000
-permalink: /2017-11-30_Talmudic-Truths-For-Programmers-8f6e1dc628c0
+permalink: /talmudic-truths-for-programmers-8f6e1dc628c0
 header:
   teaser: /assets/images/posts/2017-11-30-2017-11-30_Talmudic-Truths-For-Programmers-0.jpeg
 tags:

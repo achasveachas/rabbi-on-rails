@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the MVC Restaurant"
 date: 2017-06-07 06:25:14 +0000
-permalink: /2017-06-07_Welcome-to-the-MVC-Restaurant-fb1709047914
+permalink: /welcome-to-the-mvc-restaurant-fb1709047914
 header:
   teaser: /assets/images/posts/2017-06-07-2017-06-07_Welcome-to-the-MVC-Restaurant-0.jpeg
 tags:

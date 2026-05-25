@@ -1,7 +1,7 @@
 ---
 title: "Happy Birthday Torah && Tech!"
 date: 2019-12-27 00:39:07 +0000
-permalink: /2019-12-27_Happy-Birthday-Torah----Tech--d5e480020ecc
+permalink: /happy-birthday-torah-tech-d5e480020ecc
 header:
   teaser: /assets/images/posts/2019-12-27-2019-12-27_Happy-Birthday-Torah----Tech--0.jpeg
 tags:

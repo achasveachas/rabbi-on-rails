@@ -1,7 +1,7 @@
 ---
 title: "Of Scaffolds and Gems"
 date: 2016-08-28 00:00:00 +0000
-permalink: /2016-08-28_Of-Scaffolds-and-Gems-140bdbe2e005
+permalink: /of-scaffolds-and-gems-140bdbe2e005
 header:
   teaser: /assets/images/posts/2016-08-28-2016-08-28_Of-Scaffolds-and-Gems-1.png
 tags:

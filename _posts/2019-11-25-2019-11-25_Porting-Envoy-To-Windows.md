@@ -1,7 +1,7 @@
 ---
 title: "Porting Envoy To Windows"
 date: 2019-11-25 14:00:56 +0000
-permalink: /2019-11-25_Porting-Envoy-To-Windows-5db834d03982
+permalink: /porting-envoy-to-windows-5db834d03982
 header:
   teaser: /assets/images/posts/2019-11-25-2019-11-25_Porting-Envoy-To-Windows-0.jpeg
 tags:

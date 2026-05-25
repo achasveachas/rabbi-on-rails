@@ -1,7 +1,7 @@
 ---
 title: "No I didn’t, I only found out about Corneal when I started working on my Sinatra assessment."
 date: 2016-09-06 21:33:46 +0000
-permalink: /2016-09-06_No-I-didn-t--I-only-found-out-about-Corneal-when-I-started-working-on-my-Sinatra-assessment--b16e9e09563d
+permalink: /no-i-didnt-i-only-found-out-about-corneal-when-i-started-working-on-my-sinatra-assessment-b16e9e09563d
 tags:
   - 
 categories:

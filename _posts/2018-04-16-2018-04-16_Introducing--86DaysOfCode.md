@@ -1,7 +1,7 @@
 ---
 title: "Introducing #86DaysOfCode"
 date: 2018-04-16 00:06:33 +0000
-permalink: /2018-04-16_Introducing--86DaysOfCode-c32a5a1e1ef1
+permalink: /100days0fcode-c32a5a1e1ef1
 header:
   teaser: /assets/images/posts/2018-04-16-2018-04-16_Introducing--86DaysOfCode-0.png
 tags:
