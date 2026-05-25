@@ -6,3 +6,4 @@ vendor
 
 medium_archive/
 *.zipGemfile.lock
+Gemfile.lock

@@ -66,6 +66,15 @@
   margin-top: 1.25rem;
   font-size: 1.2rem;
 }
+
+/* Keep homepage post titles aligned with the page's neutral text style. */
+.layout--home .archive__item-title a,
+.layout--home .archive__item-title a:visited,
+.layout--home .archive__item-title a:hover,
+.layout--home .archive__item-title a:focus {
+  color: #000;
+}
+
 .archive__item-excerpt {
   margin-bottom: 1.25rem;
 }
