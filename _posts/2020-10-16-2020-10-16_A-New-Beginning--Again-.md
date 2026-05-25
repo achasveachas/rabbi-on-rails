@@ -1,0 +1,22 @@
+---
+title: "A New Beginning… Again!"
+date: 2020-10-16 12:49:27 +0000
+permalink: /2020-10-16_A-New-Beginning--Again--cd14cb3a228d
+header:
+  teaser: /assets/images/posts/2020-10-16-2020-10-16_A-New-Beginning--Again--0.jpeg
+tags:
+  - 
+categories:
+  - 
+---
+
+<section data-field="body" class="e-content">
+<section name="dba8" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div>
+<div class="section-content"><div class="section-inner sectionLayout--insetColumn">
+<h3 name="5ba6" id="5ba6" class="graf graf--h3 graf--leading graf--title">A New Beginning… Again!</h3>
+<p name="9fe4" id="9fe4" class="graf graf--p graf-after--h3"><em class="markup--em markup--p-em">This Dvar Torah was originally published in Torah &amp;&amp; Tech, the weekly newsletter I publish together with my good friend </em><a href="https://twitter.com/RabbiGreenberg?source=post_page---------------------------" data-href="https://twitter.com/RabbiGreenberg?source=post_page---------------------------" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">Ben Greenberg</em></a><em class="markup--em markup--p-em">. To order volume one of Torah &amp;&amp; Tech containing the first year’s worth of Divrei Torah or to subscribe to get the weekly issue delivered straight to your inbox click </em><a href="https://torahandtech.dev/" data-href="https://torahandtech.dev/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">here</em></a><em class="markup--em markup--p-em">.</em></p>
+<figure name="3dd1" id="3dd1" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*U5guAj06qy-60w2UYysTOA.jpeg" data-width="457" data-height="412" data-is-featured="true" alt="The word Bereshit in the Torah." src="/assets/images/posts/2020-10-16-2020-10-16_A-New-Beginning--Again--0.jpeg"></figure><p name="5985" id="5985" class="graf graf--p graf-after--figure">This week we will be reading Parashat Bereshit, the first Torah portion, starting yet another cycle of reading the Torah, which we will conclude next Simchat Torah.<br> <br> A story is told about an old bubby who, one year, when the story of Yosef being sold by his brothers was read in Shul, couldn’t hold herself in and sobbed loudly at the injustice of it all.<br> <br> Next year, when Parshat Vayeshev came around, and Yosef’s story was read again, the kindly bubby had had enough. “No!” she shouted to the dismay of the whole Shul, “I will not feel bad for Yossef anymore! He should know better! Doesn’t he remember what happened last year? Why did he go out to his brothers again! Of course they will sell him! The fool does not deserve my sympathy!”<br> <br> Every year we read the Torah again, but is it really the same?<br> <br> Think of it as a loop in programming.<br> <br> We’ve all accidentally gotten ourselves into an infinite loop at some point, but in code that’s properly written, each iteration of the loop, while it might look just like the last iteration, is different. Counters have been incremented, the program’s state has changed, events have been fired off, etc.<br> <br> The code might be the same in each iteration, but it acts on a different program with a new state.<br> <br> Similarly, while the words of the Torah we will read this Shabbat might be the same words we read last year and the year before and before that, the <strong class="markup--strong markup--p-strong">person</strong> reading those words has changed.<br> <br> You are not the same person you were last year; you’ve grown, and the way you relate to the Torah, the lessons you learn, the parts that speak to you, all that has changed.<br> <br> So as you read the words of the first Parshah this Shabbat, don’t look at it as more of the same. Try to find something new; look at it from a new perspective, maybe learn it with a new commentary or a new study partner.<br> <br> After all, what matters is not how much Torah you learn; it’s how much the Torah taught you!</p>
+<p name="6575" id="6575" class="graf graf--p graf-after--p">Shabbat Shalom,</p>
+<p name="dadf" id="dadf" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">Yechiel</em></p>
+</div></div></section>
+</section>
