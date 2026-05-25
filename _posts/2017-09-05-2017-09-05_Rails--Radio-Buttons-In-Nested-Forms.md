@@ -26,7 +26,7 @@ First a brief explanation of how radio buttons work:
 
 If you look at the HTML for a form with radio buttons, you will see that each button is it’s own input element, what links them together is that they all share the same `name` attribute. This is what it looks like:
 
-IFRAME\_PLACEHOLDER\_TOKEN\_0
+<iframe src="https://codepen.io/yechielk/embed/preview/rzRRoZ?height=600&amp;slug-hash=rzRRoZ&amp;default-tabs=html,result&amp;host=https://codepen.io&amp;embed-version=2" width="700" height="525" frameborder="0" scrolling="no"></iframe>
 
 Notice how each `input` has the same name (`picker`), that’s what lets the browser know that they are all linked and that it should only allow one of the buttons to be picked at a time.
 

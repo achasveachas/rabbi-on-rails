@@ -26,7 +26,7 @@ I shared a transcript of the talk in the Torah && Tech newsletter [issue #123](h
 
 The talk has just been posted to YouTube, and I’m happy to share it with my audience!
 
-IFRAME\_PLACEHOLDER\_TOKEN\_0
+<iframe src="https://www.youtube.com/embed/d08GFQDT824?feature=oembed" width="700" height="393" frameborder="0" scrolling="no"></iframe>
 
 If you would like to delve into some of the sources I mentioned, you can find links in the source sheet I prepared [here](https://gist.github.com/achasveachas/000e4e08e193140e372cd4819d025f4a).
 

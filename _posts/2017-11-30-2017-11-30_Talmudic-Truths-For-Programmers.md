@@ -20,7 +20,7 @@ _The transcript of the talk was posted_ [_here_](https://blog.yechiel.me/talmudi
 
 _RubyConf just uploaded the videos of the talks. For the benefit of my readers I’ll share it with you below. My talk starts at around the 4:30 mark._
 
-IFRAME\_PLACEHOLDER\_TOKEN\_0
+<iframe src="https://www.youtube.com/embed/YMoa5JpjEtM?start=268&amp;feature=oembed&amp;start=268" width="1192" height="670" frameborder="0" scrolling="no"></iframe>
 
 ![](/assets/images/posts/2017-11-30-2017-11-30_Talmudic-Truths-For-Programmers-0.jpeg)
 

@@ -26,7 +26,7 @@ Others have expressed interest in the work we were doing, so at this year’s Ku
 
 You can watch it here:
 
-IFRAME\_PLACEHOLDER\_TOKEN\_0
+<iframe src="https://www.youtube.com/embed/FGBBeyZ-p1k?feature=oembed" width="700" height="393" frameborder="0" scrolling="no"></iframe>
 
 ![Bill and I presenting the talk](/assets/images/posts/2019-11-25-2019-11-25_Porting-Envoy-To-Windows-0.jpeg)
 
