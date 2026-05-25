@@ -10,13 +10,56 @@ categories:
   - 
 ---
 
-<section data-field="body" class="e-content">
-<section name="5e76" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div>
-<div class="section-content"><div class="section-inner sectionLayout--insetColumn">
-<h3 name="9387" id="9387" class="graf graf--h3 graf--leading graf--title">Keep Calm And… Go For A Walk</h3>
-<p name="b419" id="b419" class="graf graf--p graf-after--h3"><em class="markup--em markup--p-em">This Dvar Torah was originally published in Torah &amp;&amp; Tech, the weekly newsletter I publish together with my good friend </em><a href="https://medium.com/u/8b0c7fbdbada" data-href="https://medium.com/u/8b0c7fbdbada" data-anchor-type="2" data-user-id="8b0c7fbdbada" data-action-value="8b0c7fbdbada" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank"><em class="markup--em markup--p-em">Ben Greenberg</em></a><em class="markup--em markup--p-em">. To get the weekly issue delivered straight to your inbox click </em><a href="https://mailchi.mp/f78e9b44f28d/torahandtech" data-href="https://mailchi.mp/f78e9b44f28d/torahandtech" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">here</em></a><em class="markup--em markup--p-em">.</em></p>
-<figure name="5463" id="5463" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*VJVWxBOFWnY2xSfC.jpg" data-width="465" data-height="302" data-is-featured="true" src="/assets/images/posts/2019-01-21-2019-01-21_Keep-Calm-And--Go-For-A-Walk-0.jpg"><figcaption class="imageCaption">Depiction of Moses Splitting the Sea. (Art by Natalia Kadish)</figcaption></figure><p name="9483" id="9483" class="graf graf--p graf--startsWithDoubleQuote graf-after--figure"><em class="markup--em markup--p-em">“And God said to Moses, Why do you cry out to Me? Speak to the children of Israel and let them go forward.” — </em><a href="https://twitter.us19.list-manage.com/track/click?u=30eae9068398a251f4e180849&amp;id=3957e1fbee&amp;e=969546513b" data-href="https://twitter.us19.list-manage.com/track/click?u=30eae9068398a251f4e180849&amp;id=3957e1fbee&amp;e=969546513b" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">Exodus 14:15</em></a></p>
-<p name="509c" id="509c" class="graf graf--p graf-after--p">In this week’s Torah Reading we read about the story of the splitting of the sea.<br> We are all familiar with the setup. The newly freed Israelites were traveling through the desert when they found themselves between a rock and a hard place, or, in this case, between the mighty Egyptian army in hot pursuit behind them, and a stormy sea in front of them.<br> <br> The Medrash describes an intense scene that took place at this point:<br> As they stood at the shore of the sea, the Medrash says, the people of Israel split into four factions.<br> <br> One faction said: “Let us cast ourselves into the sea.” A second faction said, “Let us return to Egypt.” A third said, “Let us wage war against the Egyptians.” A fourth said, “Let us pray to God.”<br> <br> After addressing the concerns of each of these four factions individually, God spoke to Moses and said “why do you cry out to Me? Speak to the children of Israel and let them go forward.”<br> <br> Moses passed on the message, the Children of Israel pressed forward, and then… never mind, I won’t spoil it for you, you’ll hear about it in Shul.<br> <br> Many times in our lives we face challenges that seem to get in the way of us doing what we need to do. Those challenges can take the form of obstacles in our path (the Red Sea), or distractions from the outside (the Egyptian army).<br> <br> Many times our reaction to these challenges is to start overthinking things and brainstorming solutions (or even entertaining thoughts of giving up) when the reality is that if we just kept going and doing what we have to do, we would discover the challenges are more a product of our making than anything else.<br> <br> The Jewish people leaving Egypt were given a task “When you take the people out of Egypt, you will worship God on this mountain.” They were on a mission to get to Mount Sinai to complete their transformation into a nation. Any obstacles in their path should have been immaterial. There’s an ocean in the way? Who cares? Are the Egyptians chasing behind you? Why are you even looking? “Speak to the children of Israel and let them go forward.”<br> <br> I often thought of this Medrash in my early days of learning programming. Back then I would often run into problems that seemed impossible.<br> <br> Who of us hasn’t faced those moments when you are staring at the screen for an hour, two, six, and nothing seems to work?<br> <br> Sometimes I would just be banging away at the keyboard trying to brute-force my way to a solution (“let us fight them”). Other times I would be tempted to give up on the problem and find something else to work on (“return to Egypt”), or drop out of tech altogether (“throw ourselves into the sea”). Perhaps I should leave my pride behind and ping my instructor for the umpteenth time* (“Pray to God”)?<br> <br> More often than not in those days, it turned out I was completely overthinking things. The simple, straightforward solution I had discarded in the beginning because “it can’t be THAT simple” was actually the right way to go about it.<br> <br> Sometimes the answer WAS to keep “going forward” and not try to overthink, overcomplicate, and see problems where there were none.<br> <br> Then there are the times where you tried all the solutions; you looked at all the answers from Stack Overflow, you spent hours printing debug statements, and still, the puzzle refuses to crack.<br> <br> At times like those, a more literal approach may be necessary. “Go forward”; step away from your computer and just go for a walk. It’s amazing what clearing your mind and looking at the problem with a fresh pair of eyes, and a more open mind can do.<br> <br> Sometimes, the road to the promised land starts with a walk.<br> <br> Shabbat Shalom!</p>
-<p name="916c" id="916c" class="graf graf--p graf-after--p graf--trailing">Yechiel<br> <br> *Note: this is not as bad as I made it sound. As anyone who spent some time in tech knows, knowing when to step back and ask for help is crucial to your sanity and for not wasting time on something that can be solved with just another pair of eyes and a listening “ducky.”</p>
-</div></div></section>
-</section>
+* * *
+
+### Keep Calm And… Go For A&nbsp;Walk
+
+_This Dvar Torah was originally published in Torah && Tech, the weekly newsletter I publish together with my good friend_ [_Ben Greenberg_](https://medium.com/u/8b0c7fbdbada)_. To get the weekly issue delivered straight to your inbox click_ [_here_](https://mailchi.mp/f78e9b44f28d/torahandtech)_._
+
+![](/assets/images/posts/2019-01-21-2019-01-21_Keep-Calm-And--Go-For-A-Walk-0.jpg)
+
+_Depiction of Moses Splitting the Sea. (Art by Natalia Kadish)_
+{: .image-caption}
+
+_“And God said to Moses, Why do you cry out to Me? Speak to the children of Israel and let them go forward.” — _[_Exodus 14:15_](https://twitter.us19.list-manage.com/track/click?u=30eae9068398a251f4e180849&id=3957e1fbee&e=969546513b)
+
+In this week’s Torah Reading we read about the story of the splitting of the sea.  
+&nbsp;We are all familiar with the setup. The newly freed Israelites were traveling through the desert when they found themselves between a rock and a hard place, or, in this case, between the mighty Egyptian army in hot pursuit behind them, and a stormy sea in front of them.  
+&nbsp;  
+&nbsp;The Medrash describes an intense scene that took place at this point:  
+&nbsp;As they stood at the shore of the sea, the Medrash says, the people of Israel split into four factions.  
+&nbsp;  
+&nbsp;One faction said: “Let us cast ourselves into the sea.” A second faction said, “Let us return to Egypt.” A third said, “Let us wage war against the Egyptians.” A fourth said, “Let us pray to God.”  
+&nbsp;  
+&nbsp;After addressing the concerns of each of these four factions individually, God spoke to Moses and said “why do you cry out to Me? Speak to the children of Israel and let them go forward.”  
+&nbsp;  
+&nbsp;Moses passed on the message, the Children of Israel pressed forward, and then… never mind, I won’t spoil it for you, you’ll hear about it in Shul.  
+&nbsp;  
+&nbsp;Many times in our lives we face challenges that seem to get in the way of us doing what we need to do. Those challenges can take the form of obstacles in our path (the Red Sea), or distractions from the outside (the Egyptian army).  
+&nbsp;  
+&nbsp;Many times our reaction to these challenges is to start overthinking things and brainstorming solutions (or even entertaining thoughts of giving up) when the reality is that if we just kept going and doing what we have to do, we would discover the challenges are more a product of our making than anything else.  
+&nbsp;  
+&nbsp;The Jewish people leaving Egypt were given a task “When you take the people out of Egypt, you will worship God on this mountain.” They were on a mission to get to Mount Sinai to complete their transformation into a nation. Any obstacles in their path should have been immaterial. There’s an ocean in the way? Who cares? Are the Egyptians chasing behind you? Why are you even looking? “Speak to the children of Israel and let them go forward.”  
+&nbsp;  
+&nbsp;I often thought of this Medrash in my early days of learning programming. Back then I would often run into problems that seemed impossible.  
+&nbsp;  
+&nbsp;Who of us hasn’t faced those moments when you are staring at the screen for an hour, two, six, and nothing seems to work?  
+&nbsp;  
+&nbsp;Sometimes I would just be banging away at the keyboard trying to brute-force my way to a solution (“let us fight them”). Other times I would be tempted to give up on the problem and find something else to work on (“return to Egypt”), or drop out of tech altogether (“throw ourselves into the sea”). Perhaps I should leave my pride behind and ping my instructor for the umpteenth time\* (“Pray to God”)?  
+&nbsp;  
+&nbsp;More often than not in those days, it turned out I was completely overthinking things. The simple, straightforward solution I had discarded in the beginning because “it can’t be THAT simple” was actually the right way to go about it.  
+&nbsp;  
+&nbsp;Sometimes the answer WAS to keep “going forward” and not try to overthink, overcomplicate, and see problems where there were none.  
+&nbsp;  
+&nbsp;Then there are the times where you tried all the solutions; you looked at all the answers from Stack Overflow, you spent hours printing debug statements, and still, the puzzle refuses to crack.  
+&nbsp;  
+&nbsp;At times like those, a more literal approach may be necessary. “Go forward”; step away from your computer and just go for a walk. It’s amazing what clearing your mind and looking at the problem with a fresh pair of eyes, and a more open mind can do.  
+&nbsp;  
+&nbsp;Sometimes, the road to the promised land starts with a walk.  
+&nbsp;  
+&nbsp;Shabbat Shalom!
+
+Yechiel  
+&nbsp;  
+&nbsp;\*Note: this is not as bad as I made it sound. As anyone who spent some time in tech knows, knowing when to step back and ask for help is crucial to your sanity and for not wasting time on something that can be solved with just another pair of eyes and a listening “ducky.”
+

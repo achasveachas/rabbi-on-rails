@@ -10,36 +10,89 @@ categories:
   - 
 ---
 
-<section data-field="body" class="e-content">
-<section name="9ce4" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div>
-<div class="section-content">
-<div class="section-inner sectionLayout--insetColumn">
-<h3 name="9a4c" id="9a4c" class="graf graf--h3 graf--leading graf--title">Creating My First Twitter Bot</h3>
-<h4 name="6820" id="6820" class="graf graf--h4 graf-after--h3 graf--subtitle">Creating A Twitter Bot In NodeJS</h4>
-</div>
-<div class="section-inner sectionLayout--fullWidth"><figure name="5101" id="5101" class="graf graf--figure graf--layoutFillWidth graf-after--h4"><img class="graf-image" data-image-id="1*p-7Kt3Jt-YwLH7dPTjtTbA.png" data-width="1887" data-height="591" src="/assets/images/posts/2017-12-26-2017-12-26_Creating-My-First-Twitter-Bot-0.png"></figure></div>
-<div class="section-inner sectionLayout--insetColumn">
-<p name="6384" id="6384" class="graf graf--p graf-after--figure">I know lately I’ve been a little quiet, I’ve pretty much taken a break from coding over Chanukah. So last night I figured that instead of partaking in the <a href="https://en.wikipedia.org/wiki/Chinese_cuisine_in_Jewish_culture_in_the_United_States" data-href="https://en.wikipedia.org/wiki/Chinese_cuisine_in_Jewish_culture_in_the_United_States" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">ancient Jewish tradition of indulging on the finest Chinese cuisine</a> I would stay home and work on a project I’ve been meaning to explore; writing a Twitter bot.</p>
-<figure name="d290" id="d290" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*ov13QrAGQ-sEoEV-.jpg" data-width="640" data-height="427" src="/assets/images/posts/2017-12-26-2017-12-26_Creating-My-First-Twitter-Bot-1.jpg"></figure><p name="d314" id="d314" class="graf graf--p graf-after--figure">I chose something simple to start with. Anyone who owns a car in New York City knows the pain that is Alternate Side Parking (ASP). On certain days of the week, we are not allowed to park our vehicles on certain sides of the street during an arbitrary hour and a half. At the appointed minute an army of vultures in blue uniforms descend upon the city and any car whose owner was even a few minutes late in moving it gets adorned with an orange envelope bearing a costly fine.</p>
-<p name="5c54" id="5c54" class="graf graf--p graf-after--p">Thankfully, there are a few days during the year (mainly legal holidays and days following heave snow storms) where we get a reprieve. I decided to make a bot that would tweet out during those days.</p>
-<p name="28b9" id="28b9" class="graf graf--p graf-after--p">The truth is NYC already maintains a Twitter account that tweets the status of ASP (<a href="https://twitter.com/NYCASP" data-href="https://twitter.com/NYCASP" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">@NYCASP</a>), but that account tweets every single day what the status is. I didn’t want my feed cluttered on days when ASP rules are in effect (which is most of the days), so I figured I would write a bot that would follow <a href="http://twitter.com/NYCASP" data-href="http://twitter.com/NYCASP" class="markup--anchor markup--p-anchor" title="Twitter profile for @NYCASP" rel="noopener" target="_blank">@NYCASP</a> for me and retweet only on the days that ASP rules are suspended.</p>
-<p name="688c" id="688c" class="graf graf--p graf-after--p">Thankfully there’s a Node package called <a href="https://github.com/ttezel/twit" data-href="https://github.com/ttezel/twit" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">twit</a> which provides a Twitter API client that’s fairly easy to use.</p>
-<p name="baea" id="baea" class="graf graf--p graf-after--p">In order to set up my bot, I used<a href="https://medium.com/@RabbiGreenberg/how-i-created-two-twitter-bots-ea4d4fbe96d7" data-href="https://medium.com/@RabbiGreenberg/how-i-created-two-twitter-bots-ea4d4fbe96d7" class="markup--anchor markup--p-anchor" target="_blank"> this great tutorial</a> by my friend and fellow <a href="https://medium.com/u/973c5cbfb09b" data-href="https://medium.com/u/973c5cbfb09b" data-anchor-type="2" data-user-id="973c5cbfb09b" data-action-value="973c5cbfb09b" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank">Flatiron School</a> grad, <a href="https://medium.com/u/8b0c7fbdbada" data-href="https://medium.com/u/8b0c7fbdbada" data-anchor-type="2" data-user-id="8b0c7fbdbada" data-action-value="8b0c7fbdbada" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank">Ben Greenberg</a>. If you are looking to write your own bot I suggest following his post for the initial setup, as well as instructions how to deploy to Heroku so your bot can go live. In this post I will just describe how I created the bot itself.</p>
-<p name="408d" id="408d" class="graf graf--p graf-after--p">In the end, my bot looked like this:</p>
-<pre name="3a5f" id="3a5f" class="graf graf--pre graf-after--p">const twit = require('twit');<br>require('dotenv').config() </pre>
-<pre name="61c1" id="61c1" class="graf graf--pre graf-after--pre">const config = {<br> consumer_key: process.env.consumer_key,<br> consumer_secret: process.env.consumer_secret,<br> access_token: process.env.access_token,<br> access_token_secret: process.env.access_token_secret<br>}</pre>
-<pre name="c4e9" id="c4e9" class="graf graf--pre graf-after--pre">const Twitter = new twit(config)</pre>
-<pre name="8aac" id="8aac" class="graf graf--pre graf-after--pre">const userID = "102773464"</pre>
-<pre name="b9e3" id="b9e3" class="graf graf--pre graf-after--pre">const stream = Twitter.stream('statuses/filter', {follow: [userID]})</pre>
-<pre name="f599" id="f599" class="graf graf--pre graf-after--pre">stream.on('tweet', function (tweet) {<br> if(tweet.text.includes("suspended")) {<br> retweet(tweet.id_str)<br> }<br>})</pre>
-<pre name="28d7" id="28d7" class="graf graf--pre graf-after--pre">const retweet = function(id) {<br> Twitter.post('statuses/retweet/:id', {id: id}, function(err,res){<br> if(res){<br> console.log("Successfully Retweeted")<br> } else {<br> console.log(error.message)<br> }<br> })<br>}</pre>
-<p name="f5bc" id="f5bc" class="graf graf--p graf-after--pre">In the first line I imported the <code class="markup--code markup--p-code">twit</code> package, then I defined the configuration needed for my bot to post. I hid the secret keys in environment variables that I accessed using <code class="markup--code markup--p-code">dotenv</code>.</p>
-<p name="240a" id="240a" class="graf graf--p graf-after--p">I then defined a few variables: a <code class="markup--code markup--p-code">Twitter</code> variable for a new instance of twit using my configuration, a <code class="markup--code markup--p-code">userID</code> variable that holds the User ID of the <a href="http://twitter.com/NYCASP" data-href="http://twitter.com/NYCASP" class="markup--anchor markup--p-anchor" title="Twitter profile for @NYCASP" rel="noopener" target="_blank">@NYCASP</a> Twitter account, and finally, I opened a twit <code class="markup--code markup--p-code">stream</code> that listened in to all activity associated with the <a href="http://twitter.com/NYCASP" data-href="http://twitter.com/NYCASP" class="markup--anchor markup--p-anchor" title="Twitter profile for @NYCASP" rel="noopener" target="_blank">@NYCASP</a> twitter account.</p>
-<p name="81c0" id="81c0" class="graf graf--p graf-after--p">Now that I had my stream going, I attached an event listener to the stream that fires a callback function every time a tweet is added to the stream. The function looks at the tweet’s text, and if it contains the word <code class="markup--code markup--p-code">"suspended"</code> it fires another function that retweets it.</p>
-<p name="7039" id="7039" class="graf graf--p graf-after--p">Pretty simple really!</p>
-<p name="ed39" id="ed39" class="graf graf--p graf-after--p">Now all that was left was to deploy to Heroku and wait for Christmas morning and see if my bot would retweet that morning’s suspension:</p>
-<figure name="81e7" id="81e7" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*Q3jedEcg58l0e7oC2XD5sw.png" data-width="607" data-height="194" src="/assets/images/posts/2017-12-26-2017-12-26_Creating-My-First-Twitter-Bot-2.png"></figure><p name="4247" id="4247" class="graf graf--p graf-after--figure">Jackpot! It worked!</p>
-<p name="4548" id="4548" class="graf graf--p graf-after--p graf--trailing">If you are a New Yorker who would like to follow my bot you can find it at <a href="https://twitter.com/AlterSideBot" data-href="https://twitter.com/AlterSideBot" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">@AlterSideBot</a></p>
-</div>
-</div></section>
-</section>
+* * *
+
+### Creating My First Twitter&nbsp;Bot
+
+#### Creating A Twitter Bot In&nbsp;NodeJS
+
+![](/assets/images/posts/2017-12-26-2017-12-26_Creating-My-First-Twitter-Bot-0.png)
+
+I know lately I’ve been a little quiet, I’ve pretty much taken a break from coding over Chanukah. So last night I figured that instead of partaking in the [ancient Jewish tradition of indulging on the finest Chinese cuisine](https://en.wikipedia.org/wiki/Chinese_cuisine_in_Jewish_culture_in_the_United_States) I would stay home and work on a project I’ve been meaning to explore; writing a Twitter bot.
+
+![](/assets/images/posts/2017-12-26-2017-12-26_Creating-My-First-Twitter-Bot-1.jpg)
+
+I chose something simple to start with. Anyone who owns a car in New York City knows the pain that is Alternate Side Parking (ASP). On certain days of the week, we are not allowed to park our vehicles on certain sides of the street during an arbitrary hour and a half. At the appointed minute an army of vultures in blue uniforms descend upon the city and any car whose owner was even a few minutes late in moving it gets adorned with an orange envelope bearing a costly fine.
+
+Thankfully, there are a few days during the year (mainly legal holidays and days following heave snow storms) where we get a reprieve. I decided to make a bot that would tweet out during those days.
+
+The truth is NYC already maintains a Twitter account that tweets the status of ASP ([@NYCASP](https://twitter.com/NYCASP)), but that account tweets every single day what the status is. I didn’t want my feed cluttered on days when ASP rules are in effect (which is most of the days), so I figured I would write a bot that would follow [@NYCASP](http://twitter.com/NYCASP "Twitter profile for @NYCASP") for me and retweet only on the days that ASP rules are suspended.
+
+Thankfully there’s a Node package called [twit](https://github.com/ttezel/twit) which provides a Twitter API client that’s fairly easy to use.
+
+In order to set up my bot, I used[this great tutorial](https://medium.com/@RabbiGreenberg/how-i-created-two-twitter-bots-ea4d4fbe96d7) by my friend and fellow [Flatiron School](https://medium.com/u/973c5cbfb09b) grad, [Ben Greenberg](https://medium.com/u/8b0c7fbdbada). If you are looking to write your own bot I suggest following his post for the initial setup, as well as instructions how to deploy to Heroku so your bot can go live. In this post I will just describe how I created the bot itself.
+
+In the end, my bot looked like this:
+
+```javascript
+const twit = require('twit');
+require('dotenv').config()
+```
+
+```javascript
+const config = {
+  consumer_key: process.env.consumer_key,
+  consumer_secret: process.env.consumer_secret,
+  access_token: process.env.access_token,
+  access_token_secret: process.env.access_token_secret
+};
+```
+
+```javascript
+const Twitter = new twit(config);
+```
+
+```javascript
+const userID = '102773464';
+```
+
+```javascript
+const stream = Twitter.stream('statuses/filter', { follow: [userID] });
+```
+
+```javascript
+stream.on('tweet', function (tweet) {
+  if (tweet.text.includes('suspended')) {
+    retweet(tweet.id_str);
+  }
+});
+```
+
+```javascript
+const retweet = function (id) {
+  Twitter.post('statuses/retweet/:id', { id: id }, function (err, res) {
+    if (res) {
+      console.log('Successfully Retweeted');
+    } else {
+      console.log(err.message);
+    }
+  });
+};
+```
+
+In the first line I imported the `twit` package, then I defined the configuration needed for my bot to post. I hid the secret keys in environment variables that I accessed using `dotenv`.
+
+I then defined a few variables: a `Twitter` variable for a new instance of twit using my configuration, a `userID` variable that holds the User ID of the [@NYCASP](http://twitter.com/NYCASP "Twitter profile for @NYCASP") Twitter account, and finally, I opened a twit `stream` that listened in to all activity associated with the [@NYCASP](http://twitter.com/NYCASP "Twitter profile for @NYCASP") twitter account.
+
+Now that I had my stream going, I attached an event listener to the stream that fires a callback function every time a tweet is added to the stream. The function looks at the tweet’s text, and if it contains the word `"suspended"` it fires another function that retweets it.
+
+Pretty simple really!
+
+Now all that was left was to deploy to Heroku and wait for Christmas morning and see if my bot would retweet that morning’s suspension:
+
+![](/assets/images/posts/2017-12-26-2017-12-26_Creating-My-First-Twitter-Bot-2.png)
+
+Jackpot! It worked!
+
+If you are a New Yorker who would like to follow my bot you can find it at [@AlterSideBot](https://twitter.com/AlterSideBot)
+

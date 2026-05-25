@@ -10,33 +10,76 @@ categories:
   - 
 ---
 
-<section data-field="body" class="e-content">
-<section name="1881" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div>
-<div class="section-content"><div class="section-inner sectionLayout--insetColumn">
-<h3 name="6fb5" id="6fb5" class="graf graf--h3 graf--leading graf--title">Challenges Revisited</h3>
-<p name="b5c8" id="b5c8" class="graf graf--p graf-after--h3">Those of you who have been following my blog for a while now (hi mom!), might remember when I wrote about my <a href="https://blog.yechiel.me/i-challenge-you-sinatra-c6f875e29db7#.7i49stp96" data-href="https://blog.yechiel.me/i-challenge-you-sinatra-c6f875e29db7#.7i49stp96" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Sinatra project</a>. Now that was a while ago so I’ll refresh your memory a little.</p>
-<p name="b62b" id="b62b" class="graf graf--p graf-after--p">Basically, I was fishing around for ideas for a bootcamp project for <a href="https://medium.com/u/973c5cbfb09b" data-href="https://medium.com/u/973c5cbfb09b" data-anchor-type="2" data-user-id="973c5cbfb09b" data-action-value="973c5cbfb09b" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank">Flatiron School</a>’s Full Stack Web Development course, specifically, I needed to make an app using the Sinatra framework. At the time I was talking to a friend who suggested I try a Reddit clone, hastily adding “never mind, it’s probably too hard for you…” the result was <a href="https://github.com/achasveachas/freddit" data-href="https://github.com/achasveachas/freddit" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Freddit,</a> a very basic Reddit clone that allows users to have conversations with each other by posting topics and replying to them.</p>
-<p name="c9aa" id="c9aa" class="graf graf--p graf-after--p">At the time, there was one feature I didn’t implement, and that was nested comments. Users were able to reply to a conversation, but their replies just got tacked to the bottom of the conversation with no ability to respond to specific comments.</p>
-<p name="1ca9" id="1ca9" class="graf graf--p graf-after--p">Fast forward a few months, I know finished the Rails part of Flatiron’s curriculum, as well as the JavaScript/JQuery sections. It was time for my next project, and with my larger skill-set, I felt confident enough to give <a href="https://freddit-jq.herokuapp.com/" data-href="https://freddit-jq.herokuapp.com/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Freddit</a> a much-needed makeover, this time with nested comments.</p>
-<figure name="5eb3" id="5eb3" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*kqPvEMkPq1zW5uC_.gif" data-width="220" data-height="176" src="/assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-0.gif"></figure><p name="6228" id="6228" class="graf graf--p graf-after--figure">The challenge for this project was to build a web app using Rails as the back-end with JQery on the front-end, using a Rails API to pass info from the server to the browser and back. This fit very well with my vision for Freddit. Ideally, I would have liked for users to be able to reply to conversations from the actual conversation page. They should be able to click on a “Reply” button that would have a form pop up, type in their reply, hit submit, and have their reply added to the conversation, all without leaving the page. That’s the kind of flow JQuery is good at, using AJAX to communicate with the back-end Rails server.</p>
-<p name="a28c" id="a28c" class="graf graf--p graf-after--p">My first step was to take the original Freddit, which was built using Sinatra, and give it a complete Rails makeover.</p>
-<p name="9bbd" id="9bbd" class="graf graf--p graf-after--p">Next step was to figure out how to get my comments to nest, I had a general idea of how to do it, I needed to have an association in my <code class="markup--code markup--p-code">Comment</code> model where a comment would <code class="markup--code markup--p-code">has_many</code> comments (or replies), while at the same time each Comment would also <code class="markup--code markup--p-code">belong_to</code> either a comment or directly to the conversation it was in (for more on associations see my blog post: <a href="https://blog.yechiel.me/generating-belongs-to-associations-in-rails-be7b7fdea96c#.z11c5vujb" data-href="https://blog.yechiel.me/generating-belongs-to-associations-in-rails-be7b7fdea96c#.z11c5vujb" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">rails generate association</a>).</p>
-<p name="0031" id="0031" class="graf graf--p graf-after--p">So I did some reading, found some great blog posts on the topic. I was especially helped by <a href="https://www.codementor.io/ruby-on-rails/tutorial/threaded-comments-polymorphic-associations" data-href="https://www.codementor.io/ruby-on-rails/tutorial/threaded-comments-polymorphic-associations" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">this tutorial,</a> and that’s the approach I ended up taking.</p>
-<p name="5043" id="5043" class="graf graf--p graf-after--p">To render the nested comments in the views, I used a neat little trick where I had <code class="markup--code markup--p-code">_comment</code> partial, and within the partial, I called the comment partial to display the replies.</p>
-<p name="390b" id="390b" class="graf graf--p graf-after--p">Below you can see a simplified view of my comment partial, you’ll notice down at the bottom where it says <code class="markup--code markup--p-code">render partial: ‘comments/comment’</code>, I’m calling the partial from within the partial! (so meta)</p>
-<pre name="39b7" id="39b7" class="graf graf--pre graf-after--p">&lt;div class=”body” id=”body-&lt;%= comment.id %&gt;”&gt; <br> &lt;%= simple_format(comment.body) %&gt;&lt;br&gt;<br>&lt;/div&gt; </pre>
-<pre name="efe8" id="efe8" class="graf graf--pre graf-after--pre">&lt;small&gt;Submitted &lt;%= time_ago_in_words(comment.created_at) %&gt; ago by &lt;%= link_to comment.user.username, comment.user %&gt;&lt;/small&gt;&lt;br&gt; </pre>
-<pre name="dec1" id="dec1" class="graf graf--pre graf-after--pre">&lt;div class=”reply-form” id=”comment-&lt;%= comment.id %&gt;”&gt; <br> &lt;%= link_to “Reply”, new_comment_comment_path(comment) %&gt; <br>&lt;/div&gt;</pre>
-<pre name="5bbe" id="5bbe" class="graf graf--pre graf-after--pre">&lt;div class=”reply” id=”reply-to-&lt;%= comment.id %&gt;”&gt; <br> &lt;%= render(partial: ‘comments/comment’, collection: comment.comments) %&gt;<br>&lt;/div&gt;</pre>
-<figure name="46a2" id="46a2" class="graf graf--figure graf-after--pre"><img class="graf-image" data-image-id="1*0h03JTcL9y-lnM7ON7lBgA.png" data-width="1106" data-height="844" src="/assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-1.png"><figcaption class="imageCaption">An example of a Conversation in freddit, showing nested comments.</figcaption></figure><p name="aa69" id="aa69" class="graf graf--p graf-after--figure">So at this point, my app was <strong class="markup--strong markup--p-strong">looking</strong> the way I wanted, but it wasn’t <strong class="markup--strong markup--p-strong">acting</strong> the way I wanted. You see, those “Edit” and “Reply” links there were just that, links that took you to a page with a form where you could edit a post or reply to one. That’s pretty cumbersome from a user perspective, I wanted those links to render the form right there in the page, without the need to redirect to a new page.</p>
-<p name="e51a" id="e51a" class="graf graf--p graf-after--p">Enter Asynchronous JavaScript and XML (AJAX to his friends), that cool little library that lets you run queries to your server and render the reply, all from your browser, without having to leave the comfort of your web page.</p>
-<figure name="8c98" id="8c98" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*tAjmst8ksgx1MPkxDQB49g.png" data-width="356" data-height="147" src="/assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-2.png"></figure><p name="5289" id="5289" class="graf graf--p graf-after--figure">AJAX let me render the reply form in the page (see image on the left), and then when I hit “Reply” that reply went to my Rails server in the background, was added to my database, and sent back as JSON to be rendered seamlessly into the page with no need for a refresh.</p>
-<figure name="060f" id="060f" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*ljTFIMmjzU5_IxkLssllAA.gif" data-width="275" data-height="252" src="/assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-3.gif"></figure><p name="eaa5" id="eaa5" class="graf graf--p graf-after--figure">At this point, my project was mostly ready for submission. It’s as ugly as they get, but I did learn a lot about JavaScript, JQuery, and AJAX. JavaScript and I are still in a love/hate relationship, but at least I’m learning to understand her better and appreciate some of her strengths.</p>
-<figure name="d950" id="d950" class="graf graf--figure graf--iframe graf-after--p"><blockquote class="twitter-tweet"><a href="https://twitter.com/yechielk/status/832058801943695360"></a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></figure><p name="4200" id="4200" class="graf graf--p graf-after--figure">The project took longer than I hoped, but that turned out for the best, as in the meantime Flatiron rolled out their React curriculum, and I’m so looking forward to getting into that.</p>
-<p name="255b" id="255b" class="graf graf--p graf-after--p">So with that I’ll sign off for now.</p>
-<p name="d7d0" id="d7d0" class="graf graf--p graf-after--p">Happy Coding!</p>
-<p name="1ec5" id="1ec5" class="graf graf--p graf-after--p graf--trailing">P. S. If you want to play around with Freddit you can find it <a href="https://freddit-jq.herokuapp.com/" data-href="https://freddit-jq.herokuapp.com/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">here</a>. The source code can be found on <a href="https://github.com/achasveachas/freddit-jq" data-href="https://github.com/achasveachas/freddit-jq" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">GitHub</a>. It’s an Open Sourced project, contributions are welcome.</p>
-</div></div></section><section name="b74c" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div>
-<div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="94ee" id="94ee" class="graf graf--p graf--leading graf--trailing"><em class="markup--em markup--p-em">If you liked this post, I’d appreciate if you recommended it to your friends. You can see some of my other posts on my </em><a href="http://blog.yechiel.me" data-href="http://blog.yechiel.me" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">blog</em></a><em class="markup--em markup--p-em">. You can also follow me on twitter </em><a href="https://twitter.com/yechielk/" data-href="https://twitter.com/yechielk/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">@yechielk</em></a><em class="markup--em markup--p-em"> or on my website </em><a href="http://yechiel.me" data-href="http://yechiel.me" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">yechiel.me</em></a></p></div></div></section>
-</section>
+* * *
+
+### Challenges Revisited
+
+Those of you who have been following my blog for a while now (hi mom!), might remember when I wrote about my [Sinatra project](https://blog.yechiel.me/i-challenge-you-sinatra-c6f875e29db7#.7i49stp96). Now that was a while ago so I’ll refresh your memory a little.
+
+Basically, I was fishing around for ideas for a bootcamp project for [Flatiron School](https://medium.com/u/973c5cbfb09b)’s Full Stack Web Development course, specifically, I needed to make an app using the Sinatra framework. At the time I was talking to a friend who suggested I try a Reddit clone, hastily adding “never mind, it’s probably too hard for you…” the result was [Freddit,](https://github.com/achasveachas/freddit) a very basic Reddit clone that allows users to have conversations with each other by posting topics and replying to them.
+
+At the time, there was one feature I didn’t implement, and that was nested comments. Users were able to reply to a conversation, but their replies just got tacked to the bottom of the conversation with no ability to respond to specific comments.
+
+Fast forward a few months, I know finished the Rails part of Flatiron’s curriculum, as well as the JavaScript/JQuery sections. It was time for my next project, and with my larger skill-set, I felt confident enough to give [Freddit](https://freddit-jq.herokuapp.com/) a much-needed makeover, this time with nested comments.
+
+![](/assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-0.gif)
+
+The challenge for this project was to build a web app using Rails as the back-end with JQery on the front-end, using a Rails API to pass info from the server to the browser and back. This fit very well with my vision for Freddit. Ideally, I would have liked for users to be able to reply to conversations from the actual conversation page. They should be able to click on a “Reply” button that would have a form pop up, type in their reply, hit submit, and have their reply added to the conversation, all without leaving the page. That’s the kind of flow JQuery is good at, using AJAX to communicate with the back-end Rails server.
+
+My first step was to take the original Freddit, which was built using Sinatra, and give it a complete Rails makeover.
+
+Next step was to figure out how to get my comments to nest, I had a general idea of how to do it, I needed to have an association in my `Comment` model where a comment would `has_many` comments (or replies), while at the same time each Comment would also `belong_to` either a comment or directly to the conversation it was in (for more on associations see my blog post: [rails generate association](https://blog.yechiel.me/generating-belongs-to-associations-in-rails-be7b7fdea96c#.z11c5vujb)).
+
+So I did some reading, found some great blog posts on the topic. I was especially helped by [this tutorial,](https://www.codementor.io/ruby-on-rails/tutorial/threaded-comments-polymorphic-associations) and that’s the approach I ended up taking.
+
+To render the nested comments in the views, I used a neat little trick where I had `_comment` partial, and within the partial, I called the comment partial to display the replies.
+
+Below you can see a simplified view of my comment partial, you’ll notice down at the bottom where it says `render partial: ‘comments/comment’`, I’m calling the partial from within the partial! (so meta)
+
+```erb
+<div class="body" id="body-<%= comment.id %>">
+  <%= simple_format(comment.body) %><br>
+</div>
+
+<small>Submitted <%= time_ago_in_words(comment.created_at) %> ago by <%= link_to comment.user.username, comment.user %></small><br>
+
+<div class="reply-form" id="comment-<%= comment.id %>">
+  <%= link_to "Reply", new_comment_comment_path(comment) %>
+</div>
+
+<div class="reply" id="reply-to-<%= comment.id %>">
+  <%= render(partial: 'comments/comment', collection: comment.comments) %>
+</div>
+```
+
+![](/assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-1.png)
+
+_An example of a Conversation in freddit, showing nested comments._
+{: .image-caption}
+
+So at this point, my app was **looking** the way I wanted, but it wasn’t **acting** the way I wanted. You see, those “Edit” and “Reply” links there were just that, links that took you to a page with a form where you could edit a post or reply to one. That’s pretty cumbersome from a user perspective, I wanted those links to render the form right there in the page, without the need to redirect to a new page.
+
+Enter Asynchronous JavaScript and XML (AJAX to his friends), that cool little library that lets you run queries to your server and render the reply, all from your browser, without having to leave the comfort of your web page.
+
+![](/assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-2.png)
+
+AJAX let me render the reply form in the page (see image on the left), and then when I hit “Reply” that reply went to my Rails server in the background, was added to my database, and sent back as JSON to be rendered seamlessly into the page with no need for a refresh.
+
+![](/assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-3.gif)
+
+At this point, my project was mostly ready for submission. It’s as ugly as they get, but I did learn a lot about JavaScript, JQuery, and AJAX. JavaScript and I are still in a love/hate relationship, but at least I’m learning to understand her better and appreciate some of her strengths.
+
+>
+
+The project took longer than I hoped, but that turned out for the best, as in the meantime Flatiron rolled out their React curriculum, and I’m so looking forward to getting into that.
+
+So with that I’ll sign off for now.
+
+Happy Coding!
+
+P. S. If you want to play around with Freddit you can find it [here](https://freddit-jq.herokuapp.com/). The source code can be found on [GitHub](https://github.com/achasveachas/freddit-jq). It’s an Open Sourced project, contributions are welcome.
+
+* * *
+
+_If you liked this post, I’d appreciate if you recommended it to your friends. You can see some of my other posts on my_ [_blog_](http://blog.yechiel.me)_. You can also follow me on twitter_ [_@yechielk_](https://twitter.com/yechielk/) _or on my website_ [_yechiel.me_](http://yechiel.me)
+

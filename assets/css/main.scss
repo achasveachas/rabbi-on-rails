@@ -69,3 +69,22 @@
 .archive__item-excerpt {
   margin-bottom: 1.25rem;
 }
+
+/* ==========================================================================
+   POST IMAGE CAPTIONS
+   ========================================================================== */
+
+.page__content .image-caption {
+  margin-top: -0.75rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.92rem;
+  font-style: italic;
+  text-align: center;
+  color: #666;
+}
+
+.page__content p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

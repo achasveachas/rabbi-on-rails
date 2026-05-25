@@ -31,10 +31,9 @@ Dir.glob(posts_dir).each do |file|
   clean_slug = basename.gsub(/-[a-z0-9]+$/, '') 
   jekyll_filename = "_posts/#{date.strftime('%Y-%m-%d')}-#{clean_slug}.md"
 
-  # THE URL FIX: Grab the canonical link for the true slug
+  # Grab the canonical link for the true slug
   canonical_node = doc.at_css('a.p-canonical')
   if canonical_node && canonical_node['href']
-    # Extracts everything after the last slash
     true_slug = canonical_node['href'].split('/').last
   else
     true_slug = basename
@@ -60,7 +59,6 @@ Dir.glob(posts_dir).each do |file|
         local_img_name = "#{date.strftime('%Y-%m-%d')}-#{clean_slug}-#{index}#{ext}"
         local_img_path = File.join(images_dest_dir, local_img_name)
 
-        # Skip downloading if the image is already safely on your machine
         unless File.exist?(local_img_path)
           image_data = URI.open(src, "User-Agent" => "Mozilla/5.0").read
           File.open(local_img_path, 'wb') do |saved_file|
@@ -80,11 +78,25 @@ Dir.glob(posts_dir).each do |file|
 
   cover_image ||= first_image
 
+  # THE IFRAME SAVER: Extract iframes and replace them with a text placeholder
+  iframes = {}
+  content_node.css('iframe').each_with_index do |iframe, i|
+    token = "IFRAME_PLACEHOLDER_TOKEN_#{i}"
+    iframes[token] = iframe.to_html
+    iframe.replace("<p>#{token}</p>")
+  end
+
+  # Convert HTML to Markdown (Now bypassing Medium's unknown wrappers)
   markdown = ReverseMarkdown.convert(
     content_node.to_html, 
     github_flavored: true,
-    unknown_tags: :pass_through
+    unknown_tags: :bypass
   )
+
+  # THE IFRAME SAVER: Inject the raw HTML iframes back into the Markdown
+  iframes.each do |token, iframe_html|
+    markdown.gsub!(token, iframe_html)
+  end
 
   # Inject the true slug into the permalink
   frontmatter = "---\n"
@@ -99,10 +111,10 @@ Dir.glob(posts_dir).each do |file|
 
   frontmatter += "tags:\n  - \n"
   frontmatter += "categories:\n  - \n"
-  frontmatter += "---"
+  frontmatter += "---\n\n"
 
-  File.write(jekyll_filename, frontmatter + "\n\n" + markdown)
+  File.write(jekyll_filename, frontmatter + markdown)
   puts "Converted: #{title}"
 end
 
-puts "Migration complete! True URLs restored."
+puts "Migration complete! True Markdown generated."

@@ -10,39 +10,69 @@ categories:
   - 
 ---
 
-<section data-field="body" class="e-content">
-<section name="33b1" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div>
-<div class="section-content"><div class="section-inner sectionLayout--insetColumn">
-<h3 name="d364" id="d364" class="graf graf--h3 graf--leading graf--title">Time To OverReact A Bit</h3>
-<h4 name="b36f" id="b36f" class="graf graf--h4 graf-after--h3 graf--subtitle">Building a ReactJS application with a Rails API back-end</h4>
-<p name="d33c" id="d33c" class="graf graf--p graf-after--h4">Hey, guys! I’m pretty pumped right now!</p>
-<p name="2d34" id="2d34" class="graf graf--p graf-after--p">After about a year of coding late into the nights, and all through the weekends, I finally made it to the end of <a href="https://medium.com/u/973c5cbfb09b" data-href="https://medium.com/u/973c5cbfb09b" data-anchor-type="2" data-user-id="973c5cbfb09b" data-action-value="973c5cbfb09b" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank">Flatiron School</a>’s Full Stack curriculum! That’s a really exciting accomplishment, and I couldn’t have done it without the help and support of so many people.</p>
-<p name="234f" id="234f" class="graf graf--p graf-after--p">But before I could actually celebrate, there was the last hurdle, the final challenge. I had to put all the knowledge I’ve learned into practice and build an entire full-stack app from scratch.</p>
-<p name="e8f6" id="e8f6" class="graf graf--p graf-after--p">Everything I learned until now; about back-end development with Ruby/Rails, database calls, front-end architecture with JavaScript/React, building and calling API’s. All of that would come together in this last and final project.</p>
-<h4 name="1d9c" id="1d9c" class="graf graf--h4 graf-after--p">Where To Start?</h4>
-<p name="eff9" id="eff9" class="graf graf--p graf-after--h4">The hardest part was, of course, thinking of an idea for an app. It took a while, but eventually, I figured, hey, I’m in middle of a career switch, I’m probably going to be applying for a heck of a lot of jobs over the next few weeks (I still find it hard to believe there’s someone out there who would pay me to do this stuff…), why not make an app to help me keep track of all these job applications?</p>
-<p name="904f" id="904f" class="graf graf--p graf-after--p">So with that out of the way it was time to start working on the actual app.</p>
-<p name="bf7d" id="bf7d" class="graf graf--p graf-after--p">Flatiron’s philosophy is that they don’t teach you code, they teach you to learn how to code. So the projects you make are all arranged in such a way, that while you definitely have the tools you need to build them, there’s very little hand-holding on Flatiron’s part, and quite a lot of researching and head-banging on the student’s part (see <a href="https://blog.yechiel.me/gem-install-swim-82ff7a95e605" data-href="https://blog.yechiel.me/gem-install-swim-82ff7a95e605" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">gem install swim</a> for my thoughts on the first project).</p>
-<p name="86b2" id="86b2" class="graf graf--p graf-after--p">That’s how all of the personal projects were, you can imagine the final project was all of that squared. In fact, while the curriculum did an excellent job teaching us how to build Rails apps, and they also taught us how to build great client-side applications using React, there was pretty much nothing that prepared us for putting the 2 together. How to get your React application to talk to your Rails API?</p>
-<h4 name="d033" id="d033" class="graf graf--h4 graf-after--p">Design Choices</h4>
-<p name="7f97" id="7f97" class="graf graf--p graf-after--h4">I started reading and came across two different approaches:</p>
-<p name="282d" id="282d" class="graf graf--p graf-after--p">The first one sounded pretty attractive early on. It was the approach advocated by the authors of <a href="https://www.fullstackreact.com/" data-href="https://www.fullstackreact.com/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Fullstack React</a> (THE handbook on React programming). They basically advocated putting a directory IN your Rails app for the client-side application, so the app would essentially be talking to itself.</p>
-<p name="586c" id="586c" class="graf graf--p graf-after--p">This approach had a certain elegance to it, it kept your app together in one place, you only have to worry about one app breaking.</p>
-<p name="ecbc" id="ecbc" class="graf graf--p graf-after--p">The second approach was a pattern I’ve seen a few people use (including Flatiron Instructor <a href="https://medium.com/u/f816159644c4" data-href="https://medium.com/u/f816159644c4" data-anchor-type="2" data-user-id="f816159644c4" data-action-value="f816159644c4" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank">Luke</a> in one of his study groups). It involves setting up 2 separate apps, a Rails API for the back-end, and a React app for the client-side application. The React app would then communicate with the Rails API like it would with any external API.</p>
-<p name="bae8" id="bae8" class="graf graf--p graf-after--p">Even though I was initially leaning towards the first approach, eventually I ended up going with the second one for a few reasons. For starters, separating my front-end from the back-end API makes for much cleaner code. My React app doesn’t have to know anything about how the Rails app works. In fact, I could swap out my React app for an Angular one (or Vue, or Ember, or whatever “framework of the week” pops up next) without having to touch my Rails API. I could even have 5 different apps all talking to the same back-end API.</p>
-<p name="919d" id="919d" class="graf graf--p graf-after--p">I also figured using this pattern would make things easier in case I messed up badly and would have to scrap the whole thing and start over; having a separate back-end would make that process a lot easier.</p>
-<h4 name="7fd1" id="7fd1" class="graf graf--h4 graf-after--p">Testing, Testing, 1..2..3..</h4>
-<p name="226c" id="226c" class="graf graf--p graf-after--h4">So now that I had these design questions settled, it was time to start working on the actual app; well, actually two apps.</p>
-<p name="d9f4" id="d9f4" class="graf graf--p graf-after--p">First I worked on the Rails API, being that I am pretty familiar with Rails, having already built 2 Rails apps in the past, this part was a breeze. The new challenge I took this time was writing it using the TDD pattern (or test-Driven-Development) where before coding any feature I would first write tests for it, and then write code that would get those tests passing.</p>
-<p name="f0c1" id="f0c1" class="graf graf--p graf-after--p">TDD is not new to me, the entire Flatiron curriculum is written in a TDD pattern, where labs have tests that fail when you start and you have to write the code to get them passing, but this project was the first time I actually wrote tests myself.</p>
-<h4 name="6aa4" id="6aa4" class="graf graf--h4 graf-after--p">Get Reactin’</h4>
-<p name="665e" id="665e" class="graf graf--p graf-after--h4">Once I had the back-end set up, it was time to work on the client side React app.</p>
-<p name="a192" id="a192" class="graf graf--p graf-after--p">I’m still fairly new to React, and even though Flatiron did a great job teaching it, it still took an enormous amount of time (and frustration) to get the app up and running. Add to it the fact that I still have my 9–5 job, and you’re talking weeks of late nights and weekends spent at the keyboard.</p>
-<p name="d3ac" id="d3ac" class="graf graf--p graf-after--p">Eventually, I decided to take a few days off work, and focus on the app full-time.</p>
-<p name="35e6" id="35e6" class="graf graf--p graf-after--p">Finally after a 3-day sprint of coding more than 15 hours a day App-Tracker-React was ready, and with it, my year-long journey with Flatiron!</p>
-<figure name="59d3" id="59d3" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*zOlLUiy82wzmsGfy0eVDDA.png" data-width="891" data-height="374" src="/assets/images/posts/2017-05-18-2017-05-18_Time-To-OverReact-A-Bit-0.png"></figure><p name="0f3e" id="0f3e" class="graf graf--p graf-after--figure">It’s been a crazy year, with many ups and downs, my family had to put up with a lot (not to mention, my caffeine infused body), and now that it’s over I can’t wait to see what’s next!</p>
-<p name="7bc8" id="7bc8" class="graf graf--p graf-after--p">If you want to check out my app you can find it here: <a href="https://app-tracker-react.herokuapp.com/" data-href="https://app-tracker-react.herokuapp.com/" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">https://app-tracker-react.herokuapp.com/</a></p>
-<p name="c17b" id="c17b" class="graf graf--p graf-after--p">The code is open source on GitHub, suggestions and feedback are welcome. You can find the repo for the Rails API <a href="https://github.com/achasveachas/app-tracker" data-href="https://github.com/achasveachas/app-tracker" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">here,</a> and the ReactJS client <a href="https://github.com/achasveachas/app-tracker-react" data-href="https://github.com/achasveachas/app-tracker-react" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">here</a>.</p>
-<p name="0fb7" id="0fb7" class="graf graf--p graf-after--p graf--trailing">As always, Happy Coding!</p>
-</div></div></section>
-</section>
+* * *
+
+### Time To OverReact A&nbsp;Bit
+
+#### Building a ReactJS application with a Rails API&nbsp;back-end
+
+Hey, guys! I’m pretty pumped right now!
+
+After about a year of coding late into the nights, and all through the weekends, I finally made it to the end of [Flatiron School](https://medium.com/u/973c5cbfb09b)’s Full Stack curriculum! That’s a really exciting accomplishment, and I couldn’t have done it without the help and support of so many people.
+
+But before I could actually celebrate, there was the last hurdle, the final challenge. I had to put all the knowledge I’ve learned into practice and build an entire full-stack app from scratch.
+
+Everything I learned until now; about back-end development with Ruby/Rails, database calls, front-end architecture with JavaScript/React, building and calling API’s. All of that would come together in this last and final project.
+
+#### Where To&nbsp;Start?
+
+The hardest part was, of course, thinking of an idea for an app. It took a while, but eventually, I figured, hey, I’m in middle of a career switch, I’m probably going to be applying for a heck of a lot of jobs over the next few weeks (I still find it hard to believe there’s someone out there who would pay me to do this stuff…), why not make an app to help me keep track of all these job applications?
+
+So with that out of the way it was time to start working on the actual app.
+
+Flatiron’s philosophy is that they don’t teach you code, they teach you to learn how to code. So the projects you make are all arranged in such a way, that while you definitely have the tools you need to build them, there’s very little hand-holding on Flatiron’s part, and quite a lot of researching and head-banging on the student’s part (see [gem install swim](https://blog.yechiel.me/gem-install-swim-82ff7a95e605) for my thoughts on the first project).
+
+That’s how all of the personal projects were, you can imagine the final project was all of that squared. In fact, while the curriculum did an excellent job teaching us how to build Rails apps, and they also taught us how to build great client-side applications using React, there was pretty much nothing that prepared us for putting the 2 together. How to get your React application to talk to your Rails API?
+
+#### Design Choices
+
+I started reading and came across two different approaches:
+
+The first one sounded pretty attractive early on. It was the approach advocated by the authors of [Fullstack React](https://www.fullstackreact.com/) (THE handbook on React programming). They basically advocated putting a directory IN your Rails app for the client-side application, so the app would essentially be talking to itself.
+
+This approach had a certain elegance to it, it kept your app together in one place, you only have to worry about one app breaking.
+
+The second approach was a pattern I’ve seen a few people use (including Flatiron Instructor [Luke](https://medium.com/u/f816159644c4) in one of his study groups). It involves setting up 2 separate apps, a Rails API for the back-end, and a React app for the client-side application. The React app would then communicate with the Rails API like it would with any external API.
+
+Even though I was initially leaning towards the first approach, eventually I ended up going with the second one for a few reasons. For starters, separating my front-end from the back-end API makes for much cleaner code. My React app doesn’t have to know anything about how the Rails app works. In fact, I could swap out my React app for an Angular one (or Vue, or Ember, or whatever “framework of the week” pops up next) without having to touch my Rails API. I could even have 5 different apps all talking to the same back-end API.
+
+I also figured using this pattern would make things easier in case I messed up badly and would have to scrap the whole thing and start over; having a separate back-end would make that process a lot easier.
+
+#### Testing, Testing, 1..2..3..
+
+So now that I had these design questions settled, it was time to start working on the actual app; well, actually two apps.
+
+First I worked on the Rails API, being that I am pretty familiar with Rails, having already built 2 Rails apps in the past, this part was a breeze. The new challenge I took this time was writing it using the TDD pattern (or test-Driven-Development) where before coding any feature I would first write tests for it, and then write code that would get those tests passing.
+
+TDD is not new to me, the entire Flatiron curriculum is written in a TDD pattern, where labs have tests that fail when you start and you have to write the code to get them passing, but this project was the first time I actually wrote tests myself.
+
+#### Get Reactin’
+
+Once I had the back-end set up, it was time to work on the client side React app.
+
+I’m still fairly new to React, and even though Flatiron did a great job teaching it, it still took an enormous amount of time (and frustration) to get the app up and running. Add to it the fact that I still have my 9–5 job, and you’re talking weeks of late nights and weekends spent at the keyboard.
+
+Eventually, I decided to take a few days off work, and focus on the app full-time.
+
+Finally after a 3-day sprint of coding more than 15 hours a day App-Tracker-React was ready, and with it, my year-long journey with Flatiron!
+
+![](/assets/images/posts/2017-05-18-2017-05-18_Time-To-OverReact-A-Bit-0.png)
+
+It’s been a crazy year, with many ups and downs, my family had to put up with a lot (not to mention, my caffeine infused body), and now that it’s over I can’t wait to see what’s next!
+
+If you want to check out my app you can find it here: [https://app-tracker-react.herokuapp.com/](https://app-tracker-react.herokuapp.com/)
+
+The code is open source on GitHub, suggestions and feedback are welcome. You can find the repo for the Rails API [here,](https://github.com/achasveachas/app-tracker) and the ReactJS client [here](https://github.com/achasveachas/app-tracker-react).
+
+As always, Happy Coding!
+

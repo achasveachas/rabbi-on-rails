@@ -10,21 +10,33 @@ categories:
   - 
 ---
 
-<section data-field="body" class="e-content">
-<section name="b698" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div>
-<div class="section-content"><div class="section-inner sectionLayout--insetColumn">
-<h3 name="9d7f" id="9d7f" class="graf graf--h3 graf--leading graf--title">From Job Applications To Compatibility Lists</h3>
-<h4 name="e6f5" id="e6f5" class="graf graf--h4 graf-after--h3 graf--subtitle">How I repurposed my bootcamp project</h4>
-<p name="9c9e" id="9c9e" class="graf graf--p graf-after--h4">Throughout the time I was learning to code, I was very fortunate to have the full support of my manager at my current job. He encouraged me to upgrade my skill-set, and even let me take <a href="https://medium.com/u/973c5cbfb09b" data-href="https://medium.com/u/973c5cbfb09b" data-anchor-type="2" data-user-id="973c5cbfb09b" data-action-value="973c5cbfb09b" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank">Flatiron</a> lessons during downtime.</p>
-<p name="dc37" id="dc37" class="graf graf--p graf-after--p">Naturally, when I <a href="https://blog.yechiel.me/reactjs-app-with-rails-api-4ffb12ba6608" data-href="https://blog.yechiel.me/reactjs-app-with-rails-api-4ffb12ba6608" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">graduated</a>, I was excited to let my boss know about it, and, as expected, he was happy for me as well, asking me to show him my final project.</p>
-<figure name="e788" id="e788" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="0*iErJztj9LNdJQ6Je.png" data-width="2000" data-height="1098" src="/assets/images/posts/2017-08-06-2017-08-06_From-Job-Applications-To-Compatibility-Lists-0.png"></figure><p name="10fe" id="10fe" class="graf graf--p graf-after--figure">As I showed him the <a href="http://app-tracker-react.herokuapp.com/" data-href="http://app-tracker-react.herokuapp.com/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Job Applications Tracker</a> I made, he seemed genuinely interested in it, and he asked if I thought I could tweak it a bit to help our integrations department keep track of which payment gateways and shopping carts were compatible with our company’s payment processing platforms.</p>
-<p name="84f8" id="84f8" class="graf graf--p graf-after--p">Up until now, compatibility requests were handled on a one-by-one basis, with the results tracked in separate excel sheets without any central database keeping track. If I could just tweak my app a bit, it would track payment gateways instead of job applications. Now there would be one central place where anyone in the integration team could go to see if a given gateway or shopping cart has already been looked into, and if not, record the results of the current research.</p>
-<p name="1f44" id="1f44" class="graf graf--p graf-after--p">That sounded like a fun task. The biggest challenge turned out to be setting up a Rails environment on my work computer which runs Windows. The simplest answer turned out to be setting up a virtual machine running Ubuntu, though getting it to play nice with our corporate firewall proved to be far from simple.</p>
-<p name="0de6" id="0de6" class="graf graf--p graf-after--p">Finally, I got my environment set up. At that point, all it took was two days of down time at work (one to tweak the Rails API, and another to update the ReactJS client) and Compatibility List was ready to demo.</p>
-<p name="ba99" id="ba99" class="graf graf--p graf-after--p">Some of the features had to be changed. For example, in my Job App tracker users can only see their own job applications, for the compatibility request tracker, I wanted anyone in the company to be able to see all compatibility requests. That involved playing around with the routes in my REST API. My API was built using a nested routing scheme, where a request would be sent to <code class="markup--code markup--p-code">/users/56/applications</code> to get a list of all job applications belonging to user number 56. In the compatibility list tracker I dropped the nested routing, and now any authenticated user could visit <code class="markup--code markup--p-code">/applications</code> to see the list of all applications.</p>
-<p name="1872" id="1872" class="graf graf--p graf-after--p">Another difference was regarding authentication. In my job app tracker, I did not require authentication to view a user’s applications; I did that to make it easier for job applicants to share their applications with their career coach or mentor. For the compatibility request app I was dealing with sensitive company information, I had to tighten the requirements so only people within the company would be able to view compatibility requests.</p>
-<p name="acca" id="acca" class="graf graf--p graf-after--p">For the same reason, I eliminated the traditional sign-up form and implemented a scheme where only existing admin users could register new users.</p>
-<p name="d5d2" id="d5d2" class="graf graf--p graf-after--p">All told, I’m pretty thankful to Flatiron for teaching us the importance of writing clean, modular, and tested code. Having tests meant being confident that the underlying app wasn’t breaking as I was changing around features, and having my code in discreet modular components meant that any changes I made were mostly local, and didn’t necessitate hunting down bugs introduced throughout the rest of the codebase.</p>
-<p name="ed6c" id="ed6c" class="graf graf--p graf-after--p graf--trailing">Most of all I’m thankful to my boss (Hi Motti!) for giving me the chance to put my new knowledge into real-world practice!</p>
-</div></div></section>
-</section>
+* * *
+
+### From Job Applications To Compatibility Lists
+
+#### How I repurposed my bootcamp&nbsp;project
+
+Throughout the time I was learning to code, I was very fortunate to have the full support of my manager at my current job. He encouraged me to upgrade my skill-set, and even let me take [Flatiron](https://medium.com/u/973c5cbfb09b) lessons during downtime.
+
+Naturally, when I [graduated](https://blog.yechiel.me/reactjs-app-with-rails-api-4ffb12ba6608), I was excited to let my boss know about it, and, as expected, he was happy for me as well, asking me to show him my final project.
+
+![](/assets/images/posts/2017-08-06-2017-08-06_From-Job-Applications-To-Compatibility-Lists-0.png)
+
+As I showed him the [Job Applications Tracker](http://app-tracker-react.herokuapp.com/) I made, he seemed genuinely interested in it, and he asked if I thought I could tweak it a bit to help our integrations department keep track of which payment gateways and shopping carts were compatible with our company’s payment processing platforms.
+
+Up until now, compatibility requests were handled on a one-by-one basis, with the results tracked in separate excel sheets without any central database keeping track. If I could just tweak my app a bit, it would track payment gateways instead of job applications. Now there would be one central place where anyone in the integration team could go to see if a given gateway or shopping cart has already been looked into, and if not, record the results of the current research.
+
+That sounded like a fun task. The biggest challenge turned out to be setting up a Rails environment on my work computer which runs Windows. The simplest answer turned out to be setting up a virtual machine running Ubuntu, though getting it to play nice with our corporate firewall proved to be far from simple.
+
+Finally, I got my environment set up. At that point, all it took was two days of down time at work (one to tweak the Rails API, and another to update the ReactJS client) and Compatibility List was ready to demo.
+
+Some of the features had to be changed. For example, in my Job App tracker users can only see their own job applications, for the compatibility request tracker, I wanted anyone in the company to be able to see all compatibility requests. That involved playing around with the routes in my REST API. My API was built using a nested routing scheme, where a request would be sent to `/users/56/applications` to get a list of all job applications belonging to user number 56. In the compatibility list tracker I dropped the nested routing, and now any authenticated user could visit `/applications` to see the list of all applications.
+
+Another difference was regarding authentication. In my job app tracker, I did not require authentication to view a user’s applications; I did that to make it easier for job applicants to share their applications with their career coach or mentor. For the compatibility request app I was dealing with sensitive company information, I had to tighten the requirements so only people within the company would be able to view compatibility requests.
+
+For the same reason, I eliminated the traditional sign-up form and implemented a scheme where only existing admin users could register new users.
+
+All told, I’m pretty thankful to Flatiron for teaching us the importance of writing clean, modular, and tested code. Having tests meant being confident that the underlying app wasn’t breaking as I was changing around features, and having my code in discreet modular components meant that any changes I made were mostly local, and didn’t necessitate hunting down bugs introduced throughout the rest of the codebase.
+
+Most of all I’m thankful to my boss (Hi Motti!) for giving me the chance to put my new knowledge into real-world practice!
+

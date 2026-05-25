@@ -10,30 +10,46 @@ categories:
   - 
 ---
 
-<section data-field="body" class="e-content">
-<section name="4621" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div>
-<div class="section-content">
-<div class="section-inner sectionLayout--insetColumn">
-<h3 name="c631" id="c631" class="graf graf--h3 graf--leading graf--title">Talmudic Truths For Programmers — The Lightning Edition</h3>
-<h4 name="45ac" id="45ac" class="graf graf--h4 graf-after--h3 graf--subtitle">Transcript Of My Lightning Talk At RubyConf 2017</h4>
-<p name="2be3" id="2be3" class="graf graf--p graf-after--h4"><em class="markup--em markup--p-em">As mentioned in my last </em><a href="https://blog.yechiel.me/of-conferences-and-scholars-c4280349e75a" data-href="https://blog.yechiel.me/of-conferences-and-scholars-c4280349e75a" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">blog post</em></a><em class="markup--em markup--p-em">, I spent the last week in New Orleans as a Scholar at RubyConf 2017. One of the funnest hours is the Lightning Talks session, when anyone who wants can sign up to give a talk on any topic they want for 5 minutes (we even had a former vet get up and give us tips on how to take care of our 4 legged friends). I volunteered to give a talk entitled </em>Talmudic Truths For Programmers<em class="markup--em markup--p-em">. For those who missed it, I present it to you here:</em></p>
-</div>
-<div class="section-inner sectionLayout--outsetColumn"><figure name="1b91" id="1b91" class="graf graf--figure graf--layoutOutsetCenter graf-after--p"><img class="graf-image" data-image-id="1*gxH2D5KqlAghyeRbAGRzlA.jpeg" data-width="1200" data-height="818" src="/assets/images/posts/2017-11-19-2017-11-19_Talmudic-Truths-For-Programmers---The-Lightning-Edition-0.jpeg"><figcaption class="imageCaption"><strong class="markup--strong markup--figure-strong">The back of</strong><a href="https://en.wikipedia.org/wiki/Yukihiro_Matsumoto" data-href="https://en.wikipedia.org/wiki/Yukihiro_Matsumoto" class="markup--anchor markup--figure-anchor" rel="noopener" target="_blank"><strong class="markup--strong markup--figure-strong"> Yukihiro “Matz” Matsumoto</strong></a><strong class="markup--strong markup--figure-strong">’s head. Oh, and that’s me on the stage too.</strong> (Photo credit: my dear friend <a href="https://medium.com/u/8b0c7fbdbada" data-href="https://medium.com/u/8b0c7fbdbada" data-anchor-type="2" data-user-id="8b0c7fbdbada" data-action-value="8b0c7fbdbada" data-action="show-user-card" data-action-type="hover" class="markup--user markup--figure-user" target="_blank">Ben Greenberg</a>)</figcaption></figure></div>
-<div class="section-inner sectionLayout--insetColumn">
-<p name="8d7d" id="8d7d" class="graf graf--p graf-after--figure">Before I was a programmer I was a Rabbi and a teacher. I spent a lot of time, still do in fact, studying Talmud. The Talmud is interesting in that one can find so much relevant advice on so many different topics. Ever since I started programming, I started finding insights relevant to my new hobby as well.</p>
-<p name="c02a" id="c02a" class="graf graf--p graf-after--p">This collection of insights can make up a whole talk, but I only have 5 minutes so let me share one or two:</p>
-<p name="13f2" id="13f2" class="graf graf--p graf-after--p">The Talmud tells of a debate between the great Talmudic sage <a href="https://en.wikipedia.org/wiki/Rabbi_Akiva" data-href="https://en.wikipedia.org/wiki/Rabbi_Akiva" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Rabbi Akiva</a> and the Roman provincial governor in Israel at the time, <a href="https://en.wikipedia.org/wiki/Tineius_Rufus" data-href="https://en.wikipedia.org/wiki/Tineius_Rufus" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Tineius Rufus</a>, the following is a loose translation:</p>
-<blockquote name="9e5a" id="9e5a" class="graf graf--pullquote graf-after--p">Turnusrufus the Evil asked Rabbi Akiva “if your God loves the poor so much, why doesn’t he provide them with sustenance himself?” Rabbi Akiva replied, “So that we may better ourselves by helping them.” <br>Tineius Rufus said “to the contrary, helping the poor makes you guilty in God’s eyes, let me give you an example: suppose the emperor got angry at one of his servants and had him thrown in prison, he commanded all of his other servants not to feed him. Now suppose one servant defied the king’s orders and fed the errant servant, wouldn’t the king be angry at him?”<br>Rabbi Akiva replied “I will give you a more accurate example: suppose the emperor got angry at his son, and in his temper he had him thrown in prison, he commanded all of his servants not to feed him. Now suppose one servant defied the king’s orders and fed the errant son, wouldn’t the king send him gifts when he found out? Similarly, we are all God’s children, as it is written ‘you are children of the Lord, your God’ (Deuteronomy 14:1).”</blockquote>
-<p name="7db5" id="7db5" class="graf graf--p graf-after--pullquote">This argument may sound arcane, but it’s strangely relevant. Tineius Rufus committed a well-known fallacy known as the <a href="https://en.wikipedia.org/wiki/Just-world_hypothesis" data-href="https://en.wikipedia.org/wiki/Just-world_hypothesis" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Just-World Fallacy</a>; we all have an innate need to feel that the world is just and fair, so if we see someone suffering, say they are poor for example, we try and justify it by saying that the person must be lazy, or that they lack drive, all as a way of justifying why they are poor and, when taken to an extreme, to justify why we don’t do more to help them out.</p>
-<p name="664c" id="664c" class="graf graf--p graf-after--p">Rabbi Akiva replied that such a world-view is wrong. When we see imperfection in the world we need to see it as a challenge, a place we can improve.</p>
-<p name="6513" id="6513" class="graf graf--p graf-after--p">So now you’re all saying “great, that sounds like a great sermon, but what does it have to do with programming?”</p>
-<p name="9a41" id="9a41" class="graf graf--p graf-after--p">Let me share a quote from Steve Klabnik:</p>
-<blockquote name="a811" id="a811" class="graf graf--pullquote graf-after--p">Programming is a movement from a broken state to a working state. That means you spend the majority of your time with things being broken. Hell, if it worked, you’d be done programming.</blockquote>
-<p name="b3d6" id="b3d6" class="graf graf--p graf-after--pullquote">I recently worked as a coach at the Flatiron School, I helped many students new to coding through their questions and bugs. I noticed an interesting thing. For every student, there was a moment, a “switch”, when they changed from a “civilian” to a programmer. That switch happened when the student learned not to be afraid of an error message.</p>
-<p name="7d3c" id="7d3c" class="graf graf--p graf-after--p">Civilians are afraid of error messages. It’s this scary thing the screen barks at them, which may or may not be their fault, and usually something they can’t fix without the help of IT. As programmers, we see lots of error messages, but for us, error messages are guides, they are opportunities, they show us where the code is broken and what has to be fixed.</p>
-<p name="a1d1" id="a1d1" class="graf graf--p graf-after--p">We thrive in broken environments. We view systems that aren’t working as an opportunity to fix and improve.</p>
-<p name="5e3c" id="5e3c" class="graf graf--p graf-after--p">Let us take this worldview and apply it to the world outside the office, by seeing imperfection and using it as a springboard to improve, both ourselves and the world around us.</p>
-<p name="5459" id="5459" class="graf graf--p graf-after--p graf--trailing">Thank you!</p>
-</div>
-</div></section>
-</section>
+* * *
+
+### Talmudic Truths For Programmers — The Lightning Edition
+
+#### Transcript Of My Lightning Talk At RubyConf&nbsp;2017
+
+_As mentioned in my last_ [_blog post_](https://blog.yechiel.me/of-conferences-and-scholars-c4280349e75a)_, I spent the last week in New Orleans as a Scholar at RubyConf 2017. One of the funnest hours is the Lightning Talks session, when anyone who wants can sign up to give a talk on any topic they want for 5 minutes (we even had a former vet get up and give us tips on how to take care of our 4 legged friends). I volunteered to give a talk entitled_ Talmudic Truths For Programmers_. For those who missed it, I present it to you here:_
+
+![](/assets/images/posts/2017-11-19-2017-11-19_Talmudic-Truths-For-Programmers---The-Lightning-Edition-0.jpeg)
+
+_The back of Yukihiro “Matz” Matsumoto’s head. Oh, and that’s me on the stage too. (Photo credit: my dear friend Ben Greenberg)_
+{: .image-caption}
+
+Before I was a programmer I was a Rabbi and a teacher. I spent a lot of time, still do in fact, studying Talmud. The Talmud is interesting in that one can find so much relevant advice on so many different topics. Ever since I started programming, I started finding insights relevant to my new hobby as well.
+
+This collection of insights can make up a whole talk, but I only have 5 minutes so let me share one or two:
+
+The Talmud tells of a debate between the great Talmudic sage [Rabbi Akiva](https://en.wikipedia.org/wiki/Rabbi_Akiva) and the Roman provincial governor in Israel at the time, [Tineius Rufus](https://en.wikipedia.org/wiki/Tineius_Rufus), the following is a loose translation:
+
+> Turnusrufus the Evil asked Rabbi Akiva “if your God loves the poor so much, why doesn’t he provide them with sustenance himself?” Rabbi Akiva replied, “So that we may better ourselves by helping them.”&nbsp;  
+> Tineius Rufus said “to the contrary, helping the poor makes you guilty in God’s eyes, let me give you an example: suppose the emperor got angry at one of his servants and had him thrown in prison, he commanded all of his other servants not to feed him. Now suppose one servant defied the king’s orders and fed the errant servant, wouldn’t the king be angry at him?”  
+> Rabbi Akiva replied “I will give you a more accurate example: suppose the emperor got angry at his son, and in his temper he had him thrown in prison, he commanded all of his servants not to feed him. Now suppose one servant defied the king’s orders and fed the errant son, wouldn’t the king send him gifts when he found out? Similarly, we are all God’s children, as it is written ‘you are children of the Lord, your God’ (Deuteronomy 14:1).”
+
+This argument may sound arcane, but it’s strangely relevant. Tineius Rufus committed a well-known fallacy known as the [Just-World Fallacy](https://en.wikipedia.org/wiki/Just-world_hypothesis); we all have an innate need to feel that the world is just and fair, so if we see someone suffering, say they are poor for example, we try and justify it by saying that the person must be lazy, or that they lack drive, all as a way of justifying why they are poor and, when taken to an extreme, to justify why we don’t do more to help them out.
+
+Rabbi Akiva replied that such a world-view is wrong. When we see imperfection in the world we need to see it as a challenge, a place we can improve.
+
+So now you’re all saying “great, that sounds like a great sermon, but what does it have to do with programming?”
+
+Let me share a quote from Steve Klabnik:
+
+> Programming is a movement from a broken state to a working state. That means you spend the majority of your time with things being broken. Hell, if it worked, you’d be done programming.
+
+I recently worked as a coach at the Flatiron School, I helped many students new to coding through their questions and bugs. I noticed an interesting thing. For every student, there was a moment, a “switch”, when they changed from a “civilian” to a programmer. That switch happened when the student learned not to be afraid of an error message.
+
+Civilians are afraid of error messages. It’s this scary thing the screen barks at them, which may or may not be their fault, and usually something they can’t fix without the help of IT. As programmers, we see lots of error messages, but for us, error messages are guides, they are opportunities, they show us where the code is broken and what has to be fixed.
+
+We thrive in broken environments. We view systems that aren’t working as an opportunity to fix and improve.
+
+Let us take this worldview and apply it to the world outside the office, by seeing imperfection and using it as a springboard to improve, both ourselves and the world around us.
+
+Thank you!
+
