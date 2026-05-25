@@ -16,7 +16,7 @@ repository: "achasveachas/rabbi-on-rails"
 # ==============================================================================
 author:
   name     : "Yechiel Kalmenson"
-  avatar   : "/assets/images/avatar.jpg" 
+  # avatar   : "/assets/images/avatar.jpg" 
   bio      : "Coding With the Masters"
   location : "New York"
   links:
