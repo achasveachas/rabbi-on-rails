@@ -3,7 +3,7 @@ title: "Parenthetically Speaking 2"
 date: 2017-12-10 02:55:03 +0000
 permalink: /parenthetically-speaking-2-db6386eb9db3
 header:
-  teaser: /assets/images/posts/2017-12-10-2017-12-10_Parenthetically-Speaking-2-0.
+  teaser: /assets/images/posts/2017-12-10-2017-12-10_Parenthetically-Speaking-2-0.jpg
 tags:
   - 
 categories:
@@ -42,7 +42,7 @@ The solution uses a data-structure called a stack.
 
 To understand stacks, let’s think of this delicious stack:
 
-![](/assets/images/posts/2017-12-10-2017-12-10_Parenthetically-Speaking-2-0.)
+![](/assets/images/posts/2017-12-10-2017-12-10_Parenthetically-Speaking-2-0.jpg)
 
 If you are cooking pancakes for breakfast, you probably have a plate next to you. As each pancake is ready, you flip it out of the frying pan into the plate. Slowly slowly the pile of pancakes in the plate grows into a nice, neat stack. As your hungry family members drift into the kitchen following the heavenly smells, they see the pile of pancakes next to you, they then each come over and take a pancake off the top of the stack.
 
