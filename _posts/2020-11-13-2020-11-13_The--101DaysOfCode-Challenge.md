@@ -20,7 +20,7 @@ _This Dvar Torah was originally published in Torah && Tech, the weekly newslette
 
 Last week we hit a milestone; Torah && Tech published its 100th newsletter! But as exciting as hitting that milestone was for us, this week with the 101st newsletter, is arguably more important.
 
-A few years ago, when I was in the middle of my career switch to tech, I took part in the #100DaysOfCode challenge (actually, in a variant of it that took Shabbat into account, which I called [#86DaysOfCode](https://dev.to/yechielk/introducing-86daysofcode-2ga9)).
+A few years ago, when I was in the middle of my career switch to tech, I took part in the #100DaysOfCode challenge (actually, in a variant of it that took Shabbat into account, which I called [#86DaysOfCode](/100days0fcode-c32a5a1e1ef1)).
 
 For those unfamiliar with the challenge, the participant commits to spending some time each day for 100 days on code related stuff; either learning, working on projects, going through tutorials, whatever. The challenge usually involves some form of accountability, usually by posting on social media using the #100DaysOfCode hashtag.
 

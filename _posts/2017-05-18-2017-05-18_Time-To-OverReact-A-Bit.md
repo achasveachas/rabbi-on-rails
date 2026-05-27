@@ -70,7 +70,7 @@ Finally after a 3-day sprint of coding more than 15 hours a day App-Tracker-Reac
 
 It’s been a crazy year, with many ups and downs, my family had to put up with a lot (not to mention, my caffeine infused body), and now that it’s over I can’t wait to see what’s next!
 
-If you want to check out my app you can find it here: [https://app-tracker-react.herokuapp.com/](https://app-tracker-react.herokuapp.com/)
+If you want to check out my app you can find it here: [App-Tracker-React](https://app-tracker-react.herokuapp.com/)
 
 The code is open source on GitHub, suggestions and feedback are welcome. You can find the repo for the Rails API [here,](https://github.com/achasveachas/app-tracker) and the ReactJS client [here](https://github.com/achasveachas/app-tracker-react).
 
