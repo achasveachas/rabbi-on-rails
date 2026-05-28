@@ -53,6 +53,18 @@ defaults:
       author_profile: true 
       read_time: true 
       show_date: true
+      comments: true
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo: "achasveachas/rabbi-on-rails"
+    repo_id: "R_kgDOSiBX8Q"
+    category: "Comments"
+    category_id: "DIC_kwDOSiBX8c4C-A5t"
+    mapping: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
 
 # ==============================================================================
 # 4. BUILD & ENVIRONMENT SETTINGS
