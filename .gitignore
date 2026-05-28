@@ -7,5 +7,5 @@ vendor
 medium_archive/
 
 devto-export-2026-05-27/
-*.zipGemfile.lock
+*.zip
 Gemfile.lock
