@@ -5,7 +5,8 @@ permalink: /this-dvar-torah-was-originally-published-in-torah-tech-the-weekly-ne
 header:
   teaser: /assets/images/posts/2020-06-26-2020-06-26_Technical-Holiness-0.jpg
 tags:
-  - 
+  - torah-tech
+  - writing
 categories:
   - 
 ---

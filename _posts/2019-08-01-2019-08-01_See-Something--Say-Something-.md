@@ -5,7 +5,8 @@ permalink: /speak-up-for-whats-right-cabb383576ca
 header:
   teaser: /assets/images/posts/2019-08-01-2019-08-01_See-Something--Say-Something--0.jpeg
 tags:
-  - 
+  - torah-tech
+  - reflections
 categories:
   - 
 ---

@@ -5,7 +5,8 @@ permalink: /a-change-in-perspective-ca1c8bb55b33
 header:
   teaser: /assets/images/posts/2019-06-06-2019-06-06_A-Change-In-Perspective-0.jpg
 tags:
-  - 
+  - reflections
+  - productivity
 categories:
   - 
 ---

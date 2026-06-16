@@ -3,7 +3,7 @@ title: "Infinite loop"
 date: 2019-07-03 17:09:18 +0000
 permalink: /infinite-loop-35dm
 tags:
-  - jokes
+  - reflections
 ---
 
 The programmer's roommate texted them:

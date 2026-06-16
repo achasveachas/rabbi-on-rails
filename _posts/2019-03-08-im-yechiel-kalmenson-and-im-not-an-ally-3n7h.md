@@ -3,7 +3,8 @@ title: "I'm Yechiel, and I'm not an ally."
 date: 2019-03-08 17:53:20 +0000
 permalink: /im-yechiel-kalmenson-and-im-not-an-ally-3n7h
 tags:
-  - wecoded
+  - writing
+  - reflections
 ---
 
 Every year since I joined dev.to I always got excited when march came around. The flood of #shecoded stories in my feed is always prompts in me feelings of inspiration, thoughtfulness, anger, empathy, sadness, laughter, and many others.

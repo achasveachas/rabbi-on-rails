@@ -5,7 +5,8 @@ permalink: /all-about-timing-attacks-f71238a13936
 header:
   teaser: /assets/images/posts/2017-10-10-2017-10-10_It-s-All-In-The-Timing-0.jpg
 tags:
-  - 
+  - productivity
+  - learning
 categories:
   - 
 ---

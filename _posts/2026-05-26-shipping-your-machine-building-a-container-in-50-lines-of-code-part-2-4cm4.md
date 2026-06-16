@@ -5,10 +5,10 @@ permalink: /shipping-your-machine-building-a-container-in-50-lines-of-code-part-
 header:
   teaser: /assets/images/posts/2026-05-26-shipping-your-machine-building-a-container-in-50-lines-of-code-part-2-4cm4-cover.jpg
 tags:
-  - go
   - containers
-  - beginners
-  - docker
+  - go
+  - command-line
+  - tutorial
 ---
 
 ## Welcome Back to the Jailhouse

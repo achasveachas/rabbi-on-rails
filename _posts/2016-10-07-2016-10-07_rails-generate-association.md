@@ -5,7 +5,9 @@ permalink: /generating-belongs-to-associations-in-rails-be7b7fdea96c
 header:
   teaser: /assets/images/posts/2016-10-07-2016-10-07_rails-generate-association-0.jpeg
 tags:
-  - 
+  - rails
+  - ruby
+  - tutorial
 categories:
   - 
 ---

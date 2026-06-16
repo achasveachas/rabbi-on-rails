@@ -5,7 +5,8 @@ permalink: /keep-calm-and-go-for-a-walk-73d82b0ea47a
 header:
   teaser: /assets/images/posts/2019-01-21-2019-01-21_Keep-Calm-And--Go-For-A-Walk-0.jpg
 tags:
-  - 
+  - reflections
+  - productivity
 categories:
   - 
 ---

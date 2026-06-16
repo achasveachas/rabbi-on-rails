@@ -5,7 +5,8 @@ permalink: /its-a-wonderful-week-163b46e9c871
 header:
   teaser: /assets/images/posts/2016-12-06-2016-12-06_It-s-a-wonderful-week--0.jpeg
 tags:
-  - 
+  - reflections
+  - writing
 categories:
   - 
 ---

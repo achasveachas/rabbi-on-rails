@@ -5,7 +5,9 @@ permalink: /reactjs-app-with-rails-api-4ffb12ba6608
 header:
   teaser: /assets/images/posts/2017-05-18-2017-05-18_Time-To-OverReact-A-Bit-0.png
 tags:
-  - 
+  - rails
+  - javascript
+  - learning
 categories:
   - 
 ---

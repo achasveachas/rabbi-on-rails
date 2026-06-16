@@ -3,10 +3,10 @@ title: "Writing Your First Browser Extension Tutorial - Part 2"
 date: 2019-08-11 22:29:23 +0000
 permalink: /writing-your-first-browser-extension-tutorial-part-2-3g9p
 tags:
+  - browser-extensions
   - javascript
-  - beginners
-  - browsers
-  - webdev
+  - learning
+  - tutorial
 ---
 
 *This tutorial is based on a workshop I gave at the Codeland conference in NYC in 2019.*

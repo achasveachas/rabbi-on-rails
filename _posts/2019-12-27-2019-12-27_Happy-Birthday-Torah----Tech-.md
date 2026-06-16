@@ -5,7 +5,8 @@ permalink: /happy-birthday-torah-tech-d5e480020ecc
 header:
   teaser: /assets/images/posts/2019-12-27-2019-12-27_Happy-Birthday-Torah----Tech--0.jpeg
 tags:
-  - 
+  - torah-tech
+  - writing
 categories:
   - 
 ---

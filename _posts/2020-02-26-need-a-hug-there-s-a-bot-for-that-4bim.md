@@ -5,10 +5,8 @@ permalink: /need-a-hug-there-s-a-bot-for-that-4bim
 header:
   teaser: /assets/images/posts/2020-02-26-need-a-hug-there-s-a-bot-for-that-4bim-cover.jpg
 tags:
-  - python
-  - showdev
   - bots
-  - twitter
+  - python
 ---
 
 Hey all!

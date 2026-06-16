@@ -5,7 +5,7 @@ permalink: /a-new-beginning-again-cd14cb3a228d
 header:
   teaser: /assets/images/posts/2020-10-16-2020-10-16_A-New-Beginning--Again--0.jpeg
 tags:
-  - 
+  - reflections
 categories:
   - 
 ---

@@ -4,9 +4,8 @@ date: 2019-08-16 00:26:46 +0000
 permalink: /these-lifehacks-will-change-the-way-you-write-markdown-3651
 tags:
   - writing
-  - markdown
-  - beginners
-  - blogging
+  - productivity
+  - learning
 ---
 
 If you're a developer, chances are you've come across markdown editors before (whether you know it or not).

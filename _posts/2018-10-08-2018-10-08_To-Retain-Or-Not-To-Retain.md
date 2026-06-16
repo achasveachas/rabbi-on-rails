@@ -5,7 +5,8 @@ permalink: /to-retain-or-not-to-retain-ac217f475195
 header:
   teaser: /assets/images/posts/2018-10-08-2018-10-08_To-Retain-Or-Not-To-Retain-0.jpg
 tags:
-  - 
+  - reflections
+  - productivity
 categories:
   - 
 ---

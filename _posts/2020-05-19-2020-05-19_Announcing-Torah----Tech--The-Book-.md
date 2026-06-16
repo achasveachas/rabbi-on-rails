@@ -5,7 +5,8 @@ permalink: /announcing-torah-tech-the-book-2cf2e9c91d82
 header:
   teaser: /assets/images/posts/2020-05-19-2020-05-19_Announcing-Torah----Tech--The-Book--1.png
 tags:
-  - 
+  - torah-tech
+  - writing
 categories:
   - 
 ---

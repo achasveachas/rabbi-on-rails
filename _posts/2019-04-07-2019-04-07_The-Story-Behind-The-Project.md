@@ -5,7 +5,8 @@ permalink: /portfolio-projects-21248a23f6b6
 header:
   teaser: /assets/images/posts/2019-04-07-2019-04-07_The-Story-Behind-The-Project-0.jpg
 tags:
-  - 
+  - writing
+  - learning
 categories:
   - 
 ---

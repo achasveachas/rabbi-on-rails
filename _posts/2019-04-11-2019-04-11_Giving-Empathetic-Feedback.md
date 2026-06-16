@@ -5,7 +5,8 @@ permalink: /giving-empathetic-feedback-d01802fe5827
 header:
   teaser: /assets/images/posts/2019-04-11-2019-04-11_Giving-Empathetic-Feedback-0.jpg
 tags:
-  - 
+  - mentorship
+  - career
 categories:
   - 
 ---

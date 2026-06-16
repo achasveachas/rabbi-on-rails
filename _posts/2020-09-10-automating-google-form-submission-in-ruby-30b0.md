@@ -4,8 +4,8 @@ date: 2020-09-10 18:22:58 +0000
 permalink: /automating-google-form-submission-in-ruby-30b0
 tags:
   - ruby
-  - beginners
-  - covid
+  - command-line
+  - tutorial
 ---
 
 Like many children around the country, my kids started school this week.

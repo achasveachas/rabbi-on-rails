@@ -5,7 +5,8 @@ permalink: /rosh-hashanah-reset-152f7fc87339
 header:
   teaser: /assets/images/posts/2019-09-26-2019-09-26_Have-You-Turned-It-Off-And-On-Again--0.jpg
 tags:
-  - 
+  - reflections
+  - productivity
 categories:
   - 
 ---

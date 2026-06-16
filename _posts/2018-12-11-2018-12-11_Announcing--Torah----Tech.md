@@ -5,7 +5,8 @@ permalink: /announcing-torah-tech-5dac9b4151ba
 header:
   teaser: /assets/images/posts/2018-12-11-2018-12-11_Announcing--Torah----Tech-1.jpg
 tags:
-  - 
+  - torah-tech
+  - writing
 categories:
   - 
 ---

@@ -3,8 +3,8 @@ title: "Have You Been \"Ghosted\" By An Employer?"
 date: 2018-12-16 17:28:47 +0000
 permalink: /are-millenials-ghosting-their-employers-407k
 tags:
-  - discuss
   - career
+  - reflections
 ---
 
 A recent [Washington Post article](https://www.washingtonpost.com/business/2018/12/12/workers-are-ghosting-their-employers-like-bad-dates/?noredirect=on&utm_term=.c10c4d0b2556) claims that millennials are increasingly ghosting their employers. Meaning, they just leave for a new job without telling anyone in advance and not showing up to work.

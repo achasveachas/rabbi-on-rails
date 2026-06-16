@@ -5,7 +5,9 @@ permalink: /decoupling-your-livelihood-79c7a122a44d
 header:
   teaser: /assets/images/posts/2025-12-22-2025-12-22_Refactoring-Your-Bitachon--Moving-From-Monolith-to-Modular-0.jpeg
 tags:
-  - 
+  - torah-tech
+  - writing
+  - reflections
 categories:
   - 
 ---

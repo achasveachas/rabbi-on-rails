@@ -5,9 +5,10 @@ permalink: /part-2-add-a-dead-man-s-switch-to-a-rails-application-243j
 header:
   teaser: /assets/images/posts/2020-12-18-part-2-add-a-dead-man-s-switch-to-a-rails-application-243j-cover.jpeg
 tags:
-  - rails
   - ruby
-  - scripting
+  - rails
+  - twilio
+  - tutorial
 ---
 
 ### Ah Yes, Where Were We?

@@ -3,10 +3,10 @@ title: "My Favorite Bash Tips, Tricks, and Shortcuts"
 date: 2021-01-11 22:23:39 +0000
 permalink: /my-favorite-bash-tips-tricks-and-shortcuts-36bj
 tags:
-  - linux
-  - bash
-  - beginners
+  - command-line
   - productivity
+  - learning
+  - tutorial
 ---
 
 If you're on DEV, chances are you spend at least **some** time in the terminal, maybe even a **lot** of time.

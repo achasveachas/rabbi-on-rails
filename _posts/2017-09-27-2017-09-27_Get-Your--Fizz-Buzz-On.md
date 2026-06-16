@@ -5,7 +5,8 @@ permalink: /get-your-fizz-buzz-on-543f2a327a9d
 header:
   teaser: /assets/images/posts/2017-09-27-2017-09-27_Get-Your--Fizz-Buzz-On-0.jpg
 tags:
-  - 
+  - learning
+  - mentorship
 categories:
   - 
 ---

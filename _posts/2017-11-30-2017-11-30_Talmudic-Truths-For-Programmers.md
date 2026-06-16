@@ -5,7 +5,8 @@ permalink: /talmudic-truths-for-programmers-8f6e1dc628c0
 header:
   teaser: /assets/images/posts/2017-11-30-2017-11-30_Talmudic-Truths-For-Programmers-0.jpeg
 tags:
-  - 
+  - torah-tech
+  - writing
 categories:
   - 
 ---

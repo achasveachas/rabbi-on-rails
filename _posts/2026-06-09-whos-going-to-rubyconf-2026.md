@@ -6,8 +6,8 @@ header:
   teaser: /assets/images/posts/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_zken2vpnjvczelii07bv.webp
 tags:
   - ruby
-  - rubyconf
   - conferences
+  - writing
 categories:
   - 
 ---

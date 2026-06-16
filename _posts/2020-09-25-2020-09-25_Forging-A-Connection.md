@@ -5,7 +5,8 @@ permalink: /forging-a-connection-50841a42e692
 header:
   teaser: /assets/images/posts/2020-09-25-2020-09-25_Forging-A-Connection-0.jpeg
 tags:
-  - 
+  - torah-tech
+  - reflections
 categories:
   - 
 ---

@@ -3,9 +3,8 @@ title: "What are your favorite Kotlin resources?"
 date: 2020-10-26 13:01:57 +0000
 permalink: /what-are-your-favorite-kotlin-resources-f43
 tags:
-  - discuss
   - kotlin
-  - beginners
+  - learning
 ---
 
 Hey all!

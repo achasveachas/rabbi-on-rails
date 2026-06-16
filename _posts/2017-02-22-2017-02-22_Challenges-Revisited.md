@@ -5,7 +5,8 @@ permalink: /challenges-revisited-33ae6ab648ae
 header:
   teaser: /assets/images/posts/2017-02-22-2017-02-22_Challenges-Revisited-0.gif
 tags:
-  - 
+  - open-source
+  - learning
 categories:
   - 
 ---

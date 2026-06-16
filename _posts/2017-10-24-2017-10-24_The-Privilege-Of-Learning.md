@@ -5,7 +5,9 @@ permalink: /the-privilege-of-learning-96fbe43726fe
 header:
   teaser: /assets/images/posts/2017-10-24-2017-10-24_The-Privilege-Of-Learning-0.jpeg
 tags:
-  - 
+  - career
+  - learning
+  - mentorship
 categories:
   - 
 ---

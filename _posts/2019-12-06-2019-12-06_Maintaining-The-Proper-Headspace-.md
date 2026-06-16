@@ -5,7 +5,8 @@ permalink: /maintaining-the-proper-headspace-ee752a3bef2d
 header:
   teaser: /assets/images/posts/2019-12-06-2019-12-06_Maintaining-The-Proper-Headspace--0.jpg
 tags:
-  - 
+  - productivity
+  - reflections
 categories:
   - 
 ---

@@ -5,7 +5,8 @@ permalink: /whats-the-point-of-pointers-2dd3b64ec52a
 header:
   teaser: /assets/images/posts/2019-02-14-2019-02-14_What-s-The-Point-Of-Pointers--0.png
 tags:
-  - 
+  - writing
+  - reflections
 categories:
   - 
 ---

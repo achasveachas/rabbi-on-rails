@@ -5,7 +5,9 @@ permalink: /of-scaffolds-and-gems-140bdbe2e005
 header:
   teaser: /assets/images/posts/2016-08-28-2016-08-28_Of-Scaffolds-and-Gems-1.png
 tags:
-  - 
+  - ruby
+  - sinatra
+  - open-source
 categories:
   - 
 ---

@@ -5,10 +5,10 @@ permalink: /shipping-your-machine-building-a-container-in-60-lines-of-code-part-
 header:
   teaser: /assets/images/posts/2026-05-20-shipping-your-machine-building-a-container-in-60-lines-of-code-part-1-14ma-cover.jpg
 tags:
-  - docker
-  - go
   - containers
-  - linux
+  - go
+  - command-line
+  - tutorial
 ---
 
 ## The "Works on My Machine" Problem

@@ -5,7 +5,8 @@ permalink: /show-your-gratitude-a6bbc13862f8
 header:
   teaser: /assets/images/posts/2020-01-30-2020-01-30_Show-Your-Gratitude-0.jpeg
 tags:
-  - 
+  - productivity
+  - reflections
 categories:
   - 
 ---

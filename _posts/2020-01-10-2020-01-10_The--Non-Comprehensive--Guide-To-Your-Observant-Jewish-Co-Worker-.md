@@ -5,7 +5,9 @@ permalink: /the-non-comprehensive-guide-to-your-observant-jewish-co-worker-a5c36
 header:
   teaser: /assets/images/posts/2020-01-10-2020-01-10_The--Non-Comprehensive--Guide-To-Your-Observant-Jewish-Co-Worker--0.jpg
 tags:
-  - 
+  - career
+  - torah-tech
+  - writing
 categories:
   - 
 ---

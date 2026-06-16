@@ -5,9 +5,10 @@ permalink: /part-1-adding-a-dead-man-s-switch-to-a-rails-application-bgp
 header:
   teaser: /assets/images/posts/2020-12-14-part-1-adding-a-dead-man-s-switch-to-a-rails-application-bgp-cover.png
 tags:
-  - rails
-  - scripting
   - ruby
+  - rails
+  - twilio
+  - tutorial
 ---
 
 ### Content Warning

@@ -5,7 +5,9 @@ permalink: /talmudic-gems-for-rails-developers-77f6cb98c9ad
 header:
   teaser: /assets/images/posts/2021-05-20-2021-05-20_Talmudic-Gems-For-Rails-Developers-0.jpg
 tags:
-  - 
+  - rails
+  - torah-tech
+  - writing
 categories:
   - 
 ---

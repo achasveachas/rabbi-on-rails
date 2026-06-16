@@ -5,7 +5,8 @@ permalink: /the-three-skills-plus-one-you-should-be-learning-as-a-developer-8d82
 header:
   teaser: /assets/images/posts/2019-03-01-2019-03-01_The-Three-Skills--Plus-One--You-Should-Be-Learning-As-A-Developer-2.jpg
 tags:
-  - 
+  - career
+  - learning
 categories:
   - 
 ---

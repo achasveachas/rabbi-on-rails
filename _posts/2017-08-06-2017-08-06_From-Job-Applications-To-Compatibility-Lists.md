@@ -5,7 +5,8 @@ permalink: /from-job-applications-to-compatibility-lists-6e6a2068a556
 header:
   teaser: /assets/images/posts/2017-08-06-2017-08-06_From-Job-Applications-To-Compatibility-Lists-0.png
 tags:
-  - 
+  - career
+  - reflections
 categories:
   - 
 ---

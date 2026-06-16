@@ -5,7 +5,8 @@ permalink: /when-smaller-is-bigger-50098276f108
 header:
   teaser: /assets/images/posts/2019-03-14-2019-03-14_When-Smaller-Is-Bigger-0.jpg
 tags:
-  - 
+  - torah-tech
+  - reflections
 categories:
   - 
 ---

@@ -5,7 +5,8 @@ permalink: /on-artificial-un-intelligence-a36ce6a4038e
 header:
   teaser: /assets/images/posts/2019-11-22-2019-11-22_On-Artificial-Un-intelligence--0.jpg
 tags:
-  - 
+  - ai
+  - reflections
 categories:
   - 
 ---

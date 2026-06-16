@@ -5,7 +5,9 @@ permalink: /100days0fcode-c32a5a1e1ef1
 header:
   teaser: /assets/images/posts/2018-04-16-2018-04-16_Introducing--86DaysOfCode-0.png
 tags:
-  - 
+  - learning
+  - productivity
+  - reflections
 categories:
   - 
 ---

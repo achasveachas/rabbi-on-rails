@@ -8,6 +8,7 @@ tags:
   - ruby
   - rails
   - twilio
+  - tutorial
 ---
 
 ## Bonus Round!

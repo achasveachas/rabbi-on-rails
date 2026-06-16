@@ -5,7 +5,8 @@ permalink: /welcome-to-the-mvc-restaurant-fb1709047914
 header:
   teaser: /assets/images/posts/2017-06-07-2017-06-07_Welcome-to-the-MVC-Restaurant-0.jpeg
 tags:
-  - 
+  - learning
+  - writing
 categories:
   - 
 ---

@@ -5,7 +5,8 @@ permalink: /of-conferences-and-scholars-c4280349e75a
 header:
   teaser: /assets/images/posts/2017-11-10-2017-11-10_Of-Conferences-And-Scholars-0.jpg
 tags:
-  - 
+  - conferences
+  - career
 categories:
   - 
 ---

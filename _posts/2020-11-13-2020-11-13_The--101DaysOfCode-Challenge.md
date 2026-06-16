@@ -5,7 +5,8 @@ permalink: /the-101daysofcode-challenge-766ee1ebd50a
 header:
   teaser: /assets/images/posts/2020-11-13-2020-11-13_The--101DaysOfCode-Challenge-0.jpg
 tags:
-  - 
+  - learning
+  - productivity
 categories:
   - 
 ---

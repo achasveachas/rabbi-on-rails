@@ -5,10 +5,10 @@ permalink: /add-sms-notifications-to-your-rails-app-using-twilio-20kd
 header:
   teaser: /assets/images/posts/2018-04-08-add-sms-notifications-to-your-rails-app-using-twilio-20kd-cover.jpg
 tags:
+  - rails
   - ruby
   - twilio
-  - rails
-  - beginners
+  - tutorial
 ---
 
 Anyone living in NYC with a car knows the pain that is Alternate Side Parking rules. There’s the need to always to be conscious of which side of the street your car is parked on, to run out at the most inopportune times to move it to the other side of the street, and occasionally the opportunity to be blocked in by someone double-parking. All of these, and more, are part of what New York drivers have to put up with on a weekly cycle.
