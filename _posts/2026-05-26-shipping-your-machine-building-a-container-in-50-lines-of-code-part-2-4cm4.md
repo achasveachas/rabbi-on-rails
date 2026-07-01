@@ -2,6 +2,7 @@
 title: "Shipping Your Machine: Building a Container in 50 Lines of Code (Part 2)"
 date: 2026-05-26 15:03:07 +0000
 permalink: /shipping-your-machine-building-a-container-in-50-lines-of-code-part-2-4cm4
+description: "Learn about the fascinating world of Linux containers by building one from scratch." 
 header:
   teaser: /assets/images/posts/2026-05-26-shipping-your-machine-building-a-container-in-50-lines-of-code-part-2-4cm4-cover.jpg
 tags:

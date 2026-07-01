@@ -2,6 +2,7 @@
 title: "Who's Going To RubyConf 2026?"
 date: 2026-06-09 00:00:00 +0000
 permalink: /whos-going-to-rubyconf-2026
+description: "Will I be seeing you in Vegas this year?"
 header:
   teaser: /assets/images/posts/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_zken2vpnjvczelii07bv.webp
 tags:
