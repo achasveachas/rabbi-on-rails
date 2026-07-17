@@ -5,6 +5,7 @@ permalink: /job-interview-etiquette-isn-t-just-for-the-applicants-np1
 tags:
   - career
   - reflections
+  - interviewing
 ---
 
 A while back I started a discussion around employers ghosting, or otherwise disrespecting candidates during the hiring process:
