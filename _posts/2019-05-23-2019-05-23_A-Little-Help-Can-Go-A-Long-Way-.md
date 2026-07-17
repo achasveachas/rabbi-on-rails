@@ -5,7 +5,6 @@ permalink: /a-little-help-can-go-a-long-way-2322f5c061ab
 header:
   teaser: /assets/images/posts/2019-05-23-2019-05-23_A-Little-Help-Can-Go-A-Long-Way--0.jpg
 tags:
-  - mentorship
   - learning
 categories:
   - 

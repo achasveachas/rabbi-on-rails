@@ -6,7 +6,6 @@ header:
   teaser: /assets/images/posts/2016-09-06-2016-09-06_Learning-with-Learn-0.jpeg
 tags:
   - learning
-  - mentorship
 categories:
   - 
 ---
