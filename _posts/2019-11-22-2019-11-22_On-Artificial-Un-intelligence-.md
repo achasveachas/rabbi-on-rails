@@ -7,6 +7,7 @@ header:
 tags:
   - ai
   - reflections
+  - torah-tech
 categories:
   - 
 ---

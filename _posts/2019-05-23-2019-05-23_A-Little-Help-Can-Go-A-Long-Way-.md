@@ -6,6 +6,7 @@ header:
   teaser: /assets/images/posts/2019-05-23-2019-05-23_A-Little-Help-Can-Go-A-Long-Way--0.jpg
 tags:
   - learning
+  - torah-tech
 categories:
   - 
 ---

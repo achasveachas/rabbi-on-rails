@@ -7,6 +7,7 @@ header:
 tags:
   - writing
   - reflections
+  - torah-tech
 categories:
   - 
 ---
