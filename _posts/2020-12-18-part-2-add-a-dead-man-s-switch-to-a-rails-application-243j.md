@@ -9,6 +9,7 @@ tags:
   - rails
   - twilio
   - tutorial
+series: "Dead Man's Switch in Rails"
 ---
 
 ### Ah Yes, Where Were We?

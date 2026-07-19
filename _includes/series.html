@@ -1,0 +1,18 @@
+{% if page.series %}
+  {% assign series_posts = site.posts | where: "series", page.series | sort: "date" %}
+  <div class="dev-series-box">
+    <div class="dev-series-header">
+      {{ page.series }} ({{ series_posts.size }} Part Series)
+    </div>
+    <ul class="dev-series-list">
+      {% for post in series_posts %}
+        <li class="dev-series-item {% if post.url == page.url %}is-active{% endif %}">
+          <a href="{{ post.url | relative_url }}" class="dev-series-link">
+            <span class="dev-series-badge">{{ forloop.index }}</span>
+            <span class="dev-series-title">{{ post.title }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

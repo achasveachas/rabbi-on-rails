@@ -1,0 +1,59 @@
+/* _sass/_series.scss */
+.dev-series-box {
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 8px;
+  margin: 2em 0;
+  overflow: hidden;
+}
+.dev-series-header {
+  padding: 0.85rem 1.25rem;
+  font-weight: bold;
+  font-size: 1.05em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+  background: rgba(128, 128, 128, 0.08);
+  color: #3b49df; /* DEV brand blue */
+}
+.dev-series-list {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.dev-series-item {
+  margin: 0 !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+.dev-series-item:last-child {
+  border-bottom: none;
+}
+.dev-series-link {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: background 0.15s ease-in-out;
+}
+.dev-series-link:hover {
+  background: rgba(128, 128, 128, 0.1);
+}
+.dev-series-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(128, 128, 128, 0.2);
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+/* Active Post Styling */
+.dev-series-item.is-active .dev-series-link {
+  background: rgba(59, 73, 223, 0.08);
+}
+.dev-series-item.is-active .dev-series-badge {
+  background: #3b49df;
+  color: #ffffff !important;
+}

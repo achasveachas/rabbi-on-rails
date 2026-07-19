@@ -10,6 +10,7 @@ tags:
   - go
   - command-line
   - tutorial
+series: "Containers From Scratch"
 ---
 
 ## Welcome Back to the Jailhouse

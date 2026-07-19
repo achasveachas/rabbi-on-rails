@@ -7,6 +7,7 @@ tags:
   - javascript
   - learning
   - tutorial
+series: "Writing Your First Browser Extension"
 ---
 
 *This tutorial is based on a workshop I gave at the Codeland conference in NYC in 2019.*

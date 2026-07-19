@@ -6,6 +6,7 @@ tags:
   - writing
   - productivity
   - learning
+series: "Tips and Tricks"
 ---
 
 If you're a developer, chances are you've come across markdown editors before (whether you know it or not).

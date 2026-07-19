@@ -7,6 +7,7 @@ tags:
   - productivity
   - learning
   - tutorial
+series: "Tips and Tricks"
 ---
 
 If you're on DEV, chances are you spend at least **some** time in the terminal, maybe even a **lot** of time.
