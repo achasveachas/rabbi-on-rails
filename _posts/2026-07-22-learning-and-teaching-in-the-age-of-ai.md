@@ -170,7 +170,7 @@ _We_ know when an LLM is spinning its wheels on a false premise because _we_ hav
 
 How does someone without that pre-AI experience build that intuition today? They won't get it from a sycophantic yes-man chat-bot assistant. And manually inventing your own cognitive friction requires a level of self-discipline that is hard to maintain on a tight deadline.
 
-Maybe the future of onboarding relies on doubling down on human pair programming—having juniors shadow seniors for months on end to soak up that pre-AI intuition by proxy. After all, pair programming has _always_ been one of the best onboarding methods, even before Claude. But not all companies are interested in the investment that full-time pairing requires in an industry often obsessed with shipping yesterday.
+Maybe the future of onboarding relies on doubling down on human pair programming—having juniors shadow seniors for months on end to soak up that pre-AI intuition by proxy. After all, pair programming has _always_ been one of the best onboarding methods, even before Claude. But not every company is Pivotal, and not all companies are interested in the investment that full-time pairing requires in an industry often obsessed with shipping yesterday.
 
 What I do know is that we cannot afford to ignore the problem or assume that better LLM models will magically fix our talent pipeline.
 
