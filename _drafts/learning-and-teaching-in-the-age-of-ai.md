@@ -1,5 +1,5 @@
 ---
-title: "The Friction was a Feature: Teaching and Mentoring in the Age of AI"
+title: "The Friction Is A Feature, Not A Bug: Teaching and Mentoring in the Age of AI"
 date: 2026-07-10 00:00:00 +0000
 permalink: /learning-and-teaching-in-the-age-of-ai
 description: What happens to junior developers when we outsource the Socratic method to an LLM? A reflection on AI yes-men, Chavrusa learning, and whether prompt engineering can ever replace human empathy.
@@ -15,9 +15,9 @@ tags:
   - learning
 ---
 
-Those who have been following me for a while will know that teaching and mentoring [are a big deal](/tags/#mentorship) to me.
+Those who have been following me for a while will know that teaching and mentoring [are a Big Deal™️](/tags/#mentorship) to me.
 
-Before I got into tech I was a teacher, and still consider myself a teacher at heart. Being a teacher and mentor was never separate in my eyes from being a good programmer and engineer; on the contrary, teaching was a tool that helped me become better at my craft at every stage of the journey.
+Before I got into tech I was a teacher, and still consider myself a teacher at heart. Being a teacher and mentor [was never separate](/are-you-a-10x-engineer-348aa74c82d5) in my eyes from being a good programmer and engineer; on the contrary, teaching was a tool that helped me become better at my craft at every stage of the journey.
 
 But in the last few years, and accelerating in the last few months, the landscape for teaching and learning has been changing at a scary pace. The advent of LLMs and "AI" coding assistants has drastically shifted how we acquire engineering skills in ways that we are definitely not prepared for.
 
@@ -45,6 +45,8 @@ They actively leaned into the friction to create just enough cognitive space for
 
 They understood a fundamental rule of our teaching craft: that good mentorship is not about getting to the code. The goal wasn't just to get the tests turning green today; it was to build the mental resilience required to debug the _next_ inevitable failure tomorrow.
 
+And it was these skills that I took with. me when it was _my_ turn to become the teacher, whether it was teaching second graders at the Jewish Online School, as a TA at Flatiron, or when mentoring new teammates joining my team.
+
 ### The Yes-Man in Your IDE
 
 Fast forward to today, and our industry has largely outsourced that initial layer of mentorship to LLMs and coding assistants. And here is the uncomfortable truth: AI makes a terrible Socratic tutor.
@@ -53,13 +55,15 @@ Fast forward to today, and our industry has largely outsourced that initial laye
 
 If you’ve spent any serious time pairing (or even just chatting) with modern LLMs, you know they are pathological yes-men. Tell an AI you want to architect a distributed microservice mesh for a todo-list app with twelve active users, and it won't push back. It will chime in with "That is a brilliant insight!" and instantly spit out 400 lines of boilerplate.
 
-AI defaults to blind trust. It rarely challenges a mistaken assumption, and when you ask it why a stack trace is blowing up, it immediately serves up a copypastable fix instead of helping you understand the underlying logic.
+AI defaults to blind trust. It rarely challenges a mistaken assumption, and when you ask it why a stack trace is blowing up, it immediately serves up a copypastable fix instead of helping you understand the underlying bug.
 
-By acting like an algorithmic vending machine (error_in => fix_out), AI systematically removes all the cognitive friction from the development process. But in our rush for 10x velocity, we are forgetting a foundational rule of skill acquisition: friction is a feature, not a bug.
+By acting like an algorithmic vending machine (`error_in => fix_out`), AI systematically removes all the cognitive friction from the development process. 
 
-This isn't just philosophical speculation; there's hard data to back it up. A recent [study by Anthropic](https://www.anthropic.com/research/AI-assistance-coding-skills) (or dive into the [raw paper here](https://arxiv.org/abs/2601.20245) if you love parsing methodology) took 52 software engineers learning an unfamiliar asynchronous programming library and split them into two groups: one with AI coding assistants, and one coding by hand. 
+In our rush for 10x velocity, we forgot a foundational rule of skill acquisition: friction is a feature, not a bug. That was a load-bearing friction we removed!
 
-The overall results were damning. The engineers who delegated their coding to AI suffered a 17% drop in conceptual mastery and debugging skills (the equivalent of two full letter grades!) often without completing their tasks meaningfully faster than the manual control group. 
+This isn't just philosophical speculation; there's hard data to back it up. A recent [study by Anthropic](https://www.anthropic.com/research/AI-assistance-coding-skills) (or dive into the [raw paper here](https://arxiv.org/abs/2601.20245) if you love parsing methodology) took 52 software engineers learning an unfamiliar programming library and split them into two groups: one with AI coding assistants, and one coding by hand. 
+
+The overall results were as damning as they were not surprising. The engineers who delegated their coding to AI suffered a 17% drop in conceptual mastery and debugging skills (the equivalent of two full letter grades!) often without completing their tasks meaningfully faster than the manual control group. 
 
 Why? Because when you offload the cognitive friction of getting painfully stuck, your brain never builds the deep neural pathways required to evaluate whether the generated code is actually any good.
 
@@ -73,7 +77,7 @@ This dynamic leaves junior developers in a massive bind.
 
 Friends and mentees who are earlier in their career [have complained](https://madelinecaples.hashnode.dev/how-do-i-use-ai-in-my-learning) that they feel stuck in a frustrating Catch-22: 
 
-On one hand, they have to pragmatically accept the reality that AI isn't going_anywhere. If an LLM can generate working boilerplate from a single prompt, you can't just stubborn your way out of using it. Ignoring AI entirely feels irresponsible, considering that you will be using these tools heavily in your day-to-day workflows.
+On one hand, they have to pragmatically accept the reality that AI isn't going anywhere. If an LLM can generate working boilerplate from a single prompt, you can't just stubborn your way out of using it. Ignoring AI entirely feels irresponsible, considering that you will be using these tools heavily in your day-to-day workflows.
 
 But on the other hand, if you rely on that autocomplete blindly, you get trapped in what's known as "superficial learning." You get a quick answer that allows you to pass a test suite or get a PR approved without truly understanding the mechanics under the hood. You miss out on the "deep learning" where the actual, career-sustaining growth happens.
 
@@ -123,6 +127,8 @@ When your partner acts as an adversarial rubber duck (one that actually talks ba
 >
 > _-Ta'anit 7a_
 
+![Close up of two blades n a sword fight hitting against each other. ](/assets/images/posts/karori-production-6qRACL2DquI-unsplash.jpg)
+
 In our rush for 10x velocity, we tried to replace human pair programming with AI copilots. But in doing so, we forgot a critical dependency: we exchanged the adversarial Chavrusa and Yegiah for a sycophantic robo-duck.
 
 ### Empathetic Balancing Act
@@ -163,9 +169,9 @@ _We_ know when an LLM is spinning its wheels on a false premise because _we_ hav
 
 How does someone without that pre-AI experience build that intuition today? They won't get it from a sycophantic yes-man chat-bot assistant. And manually inventing your own cognitive friction requires a level of self-discipline that is hard to maintain on a tight deadline.
 
-Maybe the future of onboarding relies on doubling down on human pair programming—having juniors shadow seniors for months on end to soak up that pre-AI intuition by proxy. But let's be pragmatic: that isn't efficient, and it certainly doesn't scale well in an industry obsessed with shipping yesterday.
+Maybe the future of onboarding relies on doubling down on human pair programming—having juniors shadow seniors for months on end to soak up that pre-AI intuition by proxy. After all, pair programming has _always_ been one of the best onboarding methods, even before Claude. But not all companies are interested in the investment that full-time pairing requires in an industry often obsessed with shipping yesterday.
 
-What I do know is that we cannot afford to ignore the problem or assume that better prompt engineering will magically fix our talent pipeline.
+What I do know is that we cannot afford to ignore the problem or assume that better LLM models will magically fix our talent pipeline.
 
 If we just hand junior developers an oracle and fail to preserve the empathetic, rigorous struggle of the Chavrusa, we are going to wake up in a few years to a terrifying system error: an industry with a massive, AI-generated codebase to maintain, and not enough senior engineers left who know how to maintain it.
 
