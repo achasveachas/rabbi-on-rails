@@ -98,4 +98,35 @@
   margin-right: auto;
 }
 
+/* Native-looking GitHub Button */
+.btn--github {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background-color: #24292f;
+  color: #ffffff !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn--github:hover {
+  background-color: #040d21;
+}
+
+/* Dark mode fallback if your site supports it */
+@media (prefers-color-scheme: dark) {
+  .btn--github {
+    background-color: #21262d;
+    border: 1px solid rgba(240,246,252,0.1);
+    color: #c9d1d9 !important;
+  }
+  .btn--github:hover {
+    background-color: #30363d;
+  }
+}
+
 @import "series";
