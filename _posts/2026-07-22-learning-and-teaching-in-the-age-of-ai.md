@@ -1,6 +1,6 @@
 ---
 title: "The Friction Is A Feature, Not A Bug: Teaching and Mentoring in the Age of AI"
-date: 2026-07-10 00:00:00 +0000
+date: 2026-07-22 00:00:00 +0000
 permalink: /learning-and-teaching-in-the-age-of-ai
 description: What happens to junior developers when we outsource the Socratic method to an LLM? A reflection on AI yes-men, Chavrusa learning, and whether prompt engineering can ever replace human empathy.
 tagline: Why Socratic mentorship, active debugging, and human empathy can't be prompt-engineered away.
