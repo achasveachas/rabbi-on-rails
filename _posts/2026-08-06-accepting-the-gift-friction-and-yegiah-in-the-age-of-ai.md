@@ -1,10 +1,22 @@
 ---
-title: "Don't Refuse the Gift: Where Friction Belongs in the Age of AI"
-date: 2026-08-03 00:00:00 +0000
+title: "Accepting the Gift: Friction and Yegiah in the Age of AI"
+date: 2026-08-06 00:00:00 +0000
+permalink: /accepting-the-gift
+description: In the age of AI-assisted coding, refusing the gift is not the answer. The challenge is preserving meaningful yegiah by moving intellectual friction up the engineering stack.
+tagline: Accept AI's gift, then reinvest your effort into architecture, security, and deeper understanding.
+header:
+  overlay_image: /assets/images/posts/robot-gift.jpg
+  teaser: /assets/images/posts/robot-gift.jpg
+image: /assets/images/posts/robot-gift.jpg
 tags:
   - torah-tech
   - ai
   - learning
+alter_rebbe_tzemach_tzedek:
+  - image_path: /assets/images/posts/alter-rebbe.jpg
+    alt: "Portrait of the Alter Rebbe in black and white."
+  - image_path: /assets/images/posts/Tzemachtzedek2.jpg
+    alt: "color protrait of the Tzemach Tzedek."
 ---
 
 I recently wrote [a post](/learning-and-teaching-in-the-age-of-ai) about the critical role friction plays in the learning process, and how AI seems uniquely designed to bypass it entirely. This seemingly leaves us in a Catch-22.
@@ -19,7 +31,11 @@ So how do we reconcile the two? How do we embrace the boost that modern AI tools
 
 ### The Rebbe’s Gift
 
-While thinking about this the other day, I was reminded of a 200-year-old story involving Rabbi Shneur Zalman of Liadi (the founder of the Chabad Chassidic movement, affectionately known as the *Alter Rebbe* or "Old Rabbi") and his young grandson, Rabbi Menachem Mendel (who would later become a revered scholar and the third Rebbe of Chabad, known for his series of books, the *"Tzemach Tzedek"*).
+While thinking about this the other day, I was reminded of a 200-year-old story involving Rabbi Shneur Zalman of Liadi (the founder of the Chabad Chassidic movement, affectionately known as the *Alter Rebbe*. You may remember him from [this post](/hold-your-horses)) and his young grandson, Rabbi Menachem Mendel (who would later become a revered scholar and the third Rebbe of Chabad, known for his series of books, the *"Tzemach Tzedek"*).
+
+<div class="portrait-gallery-fix">
+  {% include gallery id="alter_rebbe_tzemach_tzedek" layout="half" caption="Rabbi Shneur Zalman of Liadi (The Alter Rebbe) 1745-1812 (left) and Rabbi Menachem Mendel of Lubavitch (The Tzemach Tzedek) 1789-1866 (right)" %}
+</div>
 
 The Alter Rebbe raised his grandson, who was orphaned at the age of three, and personally oversaw his education. One day, the Alter Rebbe made his grandson an incredible offer: “I want to give you all the Torah knowledge I possess as a present.”
 
@@ -43,15 +59,15 @@ That hindsight realization the Tzemach Tzedek had, that's the exact blueprint we
 
 AI coding assistants are an amazing gift. By automating a lot of the boilerplate, they offer us a massive boost in productivity. They can generate database migrations and write standard CRUD endpoints in seconds. 
 
-We shouldn't gatekeep the industry or force ourselves (and the juniors coming up behind us) to reject this gift out of some misplaced sense of purity (we don't write Assembly on punchcards anymore and we shouldn't force juniors to use vim). Take the present! Let the AI write the boilerplate so you can move faster.
+We shouldn't gatekeep the industry or force ourselves (and the juniors coming up behind us) to reject this gift out of some misplaced sense of purity (just like we don't write Assembly on punchcards anymore and we don't force juniors to use vim). Take the present! Let the AI write the boilerplate so you can move faster.
 
 **However: we still need the _Yegiah_.** 
 
 The mistake isn't using AI to write code; the mistake is letting AI eliminate our intellectual toil entirely. Instead of refusing the gift, we simply need to move our *Yegiah* up a level.
 
-When you let an LLM generate a complex module, your cognitive friction shouldn't be spent remembering standard syntax or matching closing brackets. Your *Yegiah* should shift to higher-order engineering:
+When you let an LLM generate a complex module, you aren't spending your cognitive friction remembering standard syntax or matching closing brackets. Your *Yegiah* is now free to shift to higher-order engineering:
 
-*   **Architectural Skepticism:** *Why* did Claude structure the data this way? Does this pattern actually scale under load, or is it just the most statistically common answer on GitHub? `(Spoiler: it's usually the latter.)`
+*   **Architectural Skepticism:** *Why* did Claude structure the data this way? Does this pattern actually scale under load, or is it just the most statistically common answer on GitHub? (Spoiler: it's usually the latter.)
 *   **Security & Edge Cases:** Where are the subtle race conditions? What happens when this endpoint gets hit with malformed data by a bored script kiddie (who is probably using AI as well)?
 *   **Domain Mastery:** Can I clearly explain every single line of this generated code to a junior developer without looking at the screen?
 

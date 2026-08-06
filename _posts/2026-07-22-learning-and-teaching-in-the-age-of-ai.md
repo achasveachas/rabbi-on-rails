@@ -7,8 +7,7 @@ tagline: Why Socratic mentorship, active debugging, and human empathy can't be p
 header:
   overlay_image: /assets/images/posts/robo-teacher.jpg
   teaser: /assets/images/posts/robo-teacher.jpg
-  header: /assets/images/posts/robo-teacher.jpg
-  og_image: /assets/images/posts/robo-teacher.jpg
+image: /assets/images/posts/robo-teacher.jpg
 tags:
   - mentorship
   - ai

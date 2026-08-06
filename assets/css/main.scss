@@ -129,4 +129,11 @@
   }
 }
 
+/* make sure all portraits in a gallery are the same size and aspect ratio */
+.portrait-gallery-fix img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
 @import "series";
