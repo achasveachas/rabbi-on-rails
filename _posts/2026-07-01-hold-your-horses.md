@@ -5,6 +5,8 @@ permalink: /hold-your-horses
 description: "Is AI a magic wand or a useless toy? Here is what a 200-year-old Chassidic story taught me about steering the AI hype and learning to ride the horse."
 header:
   teaser: /assets/images/posts/robotic-horse.jpg
+  overlay_image: /assets/images/posts/robotic-horse.jpg
+image: /assets/images/posts/robotic-horse.jpg
 tags:
   - torah-tech
   - ai
