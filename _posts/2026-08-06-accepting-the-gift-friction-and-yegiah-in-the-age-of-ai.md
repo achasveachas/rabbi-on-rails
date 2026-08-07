@@ -1,5 +1,5 @@
 ---
-title: "Accepting the Gift: Friction and Yegiah in the Age of AI"
+title: "Accepting the Gift: The Meaning of Hard Work When It's All Handed To You."
 date: 2026-08-06 00:00:00 +0000
 permalink: /accepting-the-gift
 description: In the age of AI-assisted coding, refusing the gift is not the answer. The challenge is preserving meaningful yegiah by moving intellectual friction up the engineering stack.
