@@ -85,7 +85,7 @@ In my experience, that superficiality is a direct pipeline to developer anxiety 
 
 To survive this, diligent learners are now being forced to manually inject friction _back_ into their workflows just to keep their brains from turning off.
 
-A junior developer friend of mine [has resorted](https://madelinecaples.hashnode.dev/learning-at-ruby-conf-a-workflow-for-ai-assisted-study) to explicitly prompting their IDE with guardrail instructions like: "I want to learn how to code it myself, rather than copying and pasting, so enable that however you can."
+Junior developers I've spoken to have resorted to explicitly prompting their IDE with guardrail instructions like: "I want to learn how to code it myself, rather than copying and pasting, so enable that however you can."
 
 They take notes by hand (yes, actual paper and pen!) and set physical timers just to recreate the safeguards of active listening that a tool designed for instant gratification systematically tries to bypass.
 
