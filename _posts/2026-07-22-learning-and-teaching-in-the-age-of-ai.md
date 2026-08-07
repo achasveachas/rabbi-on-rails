@@ -75,7 +75,7 @@ For everyone else, the automated yes-man just quietly destroyed their understand
 
 This dynamic leaves junior developers in a massive bind. 
 
-Friends and mentees who are earlier in their career [have complained](https://madelinecaples.hashnode.dev/how-do-i-use-ai-in-my-learning) that they feel stuck in a frustrating Catch-22: 
+Friends and mentees who are earlier in their career have complained that they feel stuck in a frustrating Catch-22: 
 
 On one hand, they have to pragmatically accept the reality that AI isn't going anywhere. If an LLM can generate working boilerplate from a single prompt, you can't just stubborn your way out of using it. Ignoring AI entirely feels irresponsible, considering that you will be using these tools heavily in your day-to-day workflows.
 
