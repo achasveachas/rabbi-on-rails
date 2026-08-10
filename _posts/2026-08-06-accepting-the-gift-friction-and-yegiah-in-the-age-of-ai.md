@@ -19,7 +19,15 @@ alter_rebbe_tzemach_tzedek:
     alt: "color protrait of the Tzemach Tzedek."
 ---
 
-I recently wrote [a post](/learning-and-teaching-in-the-age-of-ai) about the critical role friction plays in the learning process, and how AI seems uniquely designed to bypass it entirely. This seemingly leaves us in a Catch-22.
+I recently wrote [a post](/learning-and-teaching-in-the-age-of-ai) about the critical role friction plays in the learning process, and how AI seems uniquely designed to bypass it entirely. I argued that removing the struggle and friction is ruining how the next generation learns to build mental models (seriously, read that post if you haven't yet; I promise it's worth it).
+
+The response was amazing, but reading the post could make it sound like maybe the answer is just to get rid of AI entirely, at least for juniors and folks early in their career.
+
+I don't believe that that is the case, so this post will serve as a counterbalance to the last piece. I don't think AI is *all* bad, and refusing the gift of modern tooling isn't the answer.
+
+There is absolutely a way to embrace these tools and still learn on top of them. But, and this is a massive 'but', doing so requires *intentional* human support, active pair programming, and rigorous mentorship. You cannot just hand a junior developer an AI license, leave them in a silo, and expect them to magically develop engineering intuition.
+
+Juniors are currently stuck in a Catch-22.
 
 On the one hand, we all know that real engineering skill comes from friction. You build cognitive neural pathways by banging your head against a `NullPointerError` at 2 AM, hunting down a typo on line 22, and wrestling with syntax until it finally clicks. 
 
