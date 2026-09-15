@@ -13,7 +13,10 @@ tags:
 
 Anyone living in NYC with a car knows the pain that is Alternate Side Parking rules. There’s the need to always to be conscious of which side of the street your car is parked on, to run out at the most inopportune times to move it to the other side of the street, and occasionally the opportunity to be blocked in by someone double-parking. All of these, and more, are part of what New York drivers have to put up with on a weekly cycle.
 
-![cat napping on a car](/assets/images/posts/2018-04-08-add-sms-notifications-to-your-rails-app-using-twilio-20kd-11f47b.png)<figcaption>You mean I have to move this car?</figcaption>
+![cat napping on a car](/assets/images/posts/2018-04-08-add-sms-notifications-to-your-rails-app-using-twilio-20kd-11f47b.png)
+
+_You mean I have to move this car?_
+{: .image-caption}
 
 To help me deal with it, I created [@AlterSideBot](https://twitter.com/AlterSideBot), a Twitter Bot that retweets whenever [Alternate Side Parking rules](http://www1.nyc.gov/nyc-resources/service/1029/alternate-side-parking-or-street-cleaning) are suspended so I know I don’t have to worry on those days.
 
@@ -235,7 +238,10 @@ What that does is set a variable response to a TwiML Response object that contai
 </Response>
 ```
 
-![screenshot](/assets/images/posts/2018-04-08-add-sms-notifications-to-your-rails-app-using-twilio-20kd-eeccf7.png)<figcaption>Pretty sure that goes there…</figcaption>
+![screenshot](/assets/images/posts/2018-04-08-add-sms-notifications-to-your-rails-app-using-twilio-20kd-eeccf7.png)
+
+_Pretty sure that goes there…_
+{: .image-caption}
 
 Let’s test it out; type `rails server` in your console (if you still have your rails server running from earlier shut it down and restart it so our latest changes take effect), then send an SMS to your Twilio number. You should receive a text message in response with the text “Hello World”. Neat no?
 
