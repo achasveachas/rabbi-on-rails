@@ -185,11 +185,11 @@ alert("Hello DEV!")
 
 *One issue encountered by a few participants in the workshop was that they forgot to remove the `"icons"` key from the manifest. If it's there and the value is not a valid file path the browser will freak out trying to load the icons.*
 
-### Get Off Twitter!
+## Get Off Twitter!
 
-- That was cool! But let's write an extension that actually does something useful. How about an extension that will ping you after being on Twitter for 10 minutes and remind you to take a mental health break.
+That was cool! But let's write an extension that actually does something useful. How about an extension that will ping you after being on Twitter for 10 minutes and remind you to take a mental health break.
 
-- Let's head back to our manifest and change the value of our `"matches"` key from the DEV website to Twitter:
+Let's head back to our manifest and change the value of our `"matches"` key from the DEV website to Twitter:
 ```diff
     "content_scripts": [
         {
@@ -199,15 +199,15 @@ alert("Hello DEV!")
         }
     ]
 ```
-- If we reload our extension in "about:debugging" and head to Twitter.com we should see our alert pop up there. This is just to make sure everything is still working.
+If we reload our extension in "about:debugging" and head to Twitter.com we should see our alert pop up there. This is just to make sure everything is still working.
 
-- Let's modify our `first-extension.js` to add the functionality we want.
+Let's modify our `first-extension.js` to add the functionality we want.
 
-- We can use JavaScript's built in `setInterval` function that runs a callback function at set intervals.
+We can use JavaScript's built in `setInterval` function that runs a callback function at set intervals.
 
-- The `setInterval` function takes two arguments. A function to run, and an interval in which to run it, given in milliseconds.
+The `setInterval` function takes two arguments. A function to run, and an interval in which to run it, given in milliseconds.
 
-- Let's first set our interval to 10 minutes. We could do something like:
+Let's first set our interval to 10 minutes. We could do something like:
 ```js
 const interval = 600000 // 600,000 milliseconds = 10 minutes
 ```
@@ -216,35 +216,35 @@ But I find it more readable to break up the interval into its constituent parts.
 const interval = 1000 * 60 * 10 // 1000ms = 1 second * 60 = 1 minute * 10 = 10 minutes
 ```
 
-- Next let's write the function that will run every ten minutes. We want a function that pops up an alert to tell us to get off Twitter. It should look something like this:
+Next let's write the function that will run every ten minutes. We want a function that pops up an alert to tell us to get off Twitter. It should look something like this:
 ```js
 function reminder() {
     alert("Get off Twitter!")
 }
 ```
-- Now we have all the parts we need. The only thing left is to put it all together and call our `setInterval` function:
+Now we have all the parts we need. The only thing left is to put it all together and call our `setInterval` function:
 ```js
 setInterval(reminder, interval)
 ```
-- We now have a browser extension that will do what we want. The only problem is that in order to test it we will have to wait 10 minutes, and:
+We now have a browser extension that will do what we want. The only problem is that in order to test it we will have to wait 10 minutes, and:
 ![Ain't nobody got no time for that](/assets/images/posts/2019-08-05-writing-your-first-browser-extension-part-1-d5e-bf0d7f.gif)
 so for now let's change our interval to 10 seconds instead of 10 minutes:
 ```diff
 - const interval = 1000 * 60 * 10
 + const interval = 1000 * 10
 ```
-- Let's reload our extension in "about:debugging" and head over to Twitter.com.
+Let's reload our extension in "about:debugging" and head over to Twitter.com.
 
-- If we wait 10 seconds we should see our alert pop up!
+If we wait 10 seconds we should see our alert pop up!
 
-- If we dismiss the alert we should see it popping up again after another 10 seconds etc.
+If we dismiss the alert we should see it popping up again after another 10 seconds etc.
 
-- We can go back to `first-extension.js` and switch the interval back to 10 minutes:
+We can go back to `first-extension.js` and switch the interval back to 10 minutes:
 ```diff
 - const interval = 1000 * 10
 + const interval = 1000 * 60* 10
 ```
-- Congratulations, we're done!
+Congratulations, we're done!
 
 ## What's Next?
 
