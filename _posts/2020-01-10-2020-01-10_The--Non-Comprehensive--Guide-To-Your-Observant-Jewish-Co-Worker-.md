@@ -16,7 +16,7 @@ categories:
 
 ### Your (Non-Comprehensive) Guide To Your Observant Jewish Co-Worker!
 
-Ah, a new year! For many, that’s a chance for a new beginning and new opportunities. For me (Yechiel), it meant joining a new team.
+Ah, a new year! For many, that’s a chance for a new beginning and new opportunities. For me, it meant joining a new team.
 
 ![an office](/assets/images/posts/2020-01-10-2020-01-10_The--Non-Comprehensive--Guide-To-Your-Observant-Jewish-Co-Worker--0.jpg)
 

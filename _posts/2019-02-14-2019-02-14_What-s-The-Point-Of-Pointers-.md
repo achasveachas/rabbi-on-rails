@@ -35,7 +35,7 @@ In a certain sense, the Rebbe explained, Moshe’s presence in _Tetzaveh_ is act
 
 Though it may seem counter to Moshe’s intent, it was actually pretty fitting. In Moshe’s declaration “erase me from the book which You have written” Moshe revealed his true essence as the ultimate leader, willing to put his life’s work on the line to save his people.
 
-What does all of this have to do with tech? I’m ( **Yechiel** ) glad you asked (and I would like to apologize if this part gets more technical than previous newsletters).
+What does all of this have to do with tech? I’m glad you asked! (and I would like to apologize if this part gets more technical than previous newsletters).
 
 Being relatively new to the Go language, one of the features that confused me a lot at first was the idea of pointers. Coming from Ruby and Python where pointers don’t exist I had a hard time wrapping my head around them and why they were necessary. Why is a pointer to a location in memory where a value is stored any different than a variable that holds that value? I believe the idea above, about the difference between Moshe’s name and Moshe himself, can help us understand.
 
