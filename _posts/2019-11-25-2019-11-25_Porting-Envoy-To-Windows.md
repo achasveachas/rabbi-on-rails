@@ -11,13 +11,11 @@ categories:
   - 
 ---
 
-* * *
-
-### Porting Envoy To&nbsp;Windows
-
-#### My Talk At KubeCon&nbsp;2019
+## My Talk At KubeCon&nbsp;2019
 
 So, I did a thing.
+
+<iframe src="https://www.youtube.com/embed/FGBBeyZ-p1k?feature=oembed" width="700" height="393" frameborder="0" scrolling="no"></iframe>
 
 For the past few months, I’ve been working on an exciting project at Pivotal.
 
@@ -26,8 +24,6 @@ Pivotal has been using Envoy for our Linux Cloud Foundry containers for a while,
 Others have expressed interest in the work we were doing, so at this year’s KubeCon in San Diego, my pair Bill and I presented a progress report.
 
 You can watch it here:
-
-<iframe src="https://www.youtube.com/embed/FGBBeyZ-p1k?feature=oembed" width="700" height="393" frameborder="0" scrolling="no"></iframe>
 
 ![Bill and I presenting the talk](/assets/images/posts/2019-11-25-2019-11-25_Porting-Envoy-To-Windows-0.jpeg)
 
