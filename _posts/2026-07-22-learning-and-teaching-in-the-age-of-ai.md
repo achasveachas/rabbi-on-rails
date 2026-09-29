@@ -35,6 +35,10 @@ My best, most profound learning never happened when a lesson went smoothly; it h
 
 When you strip away that struggle, you get rid of the growth. And when you get rid of the growth, the learning just doesn't happen.
 
+There's an interesting passage in the Talmud (mentioned in Gittin 43a, Shabbat 120a, and Chagigah 14a): _"A person can not truly grasp the words of Torah unless they first stumble over them."_
+
+The great commentator Rashi explains this beautifully in his notes on the passage in Chagigah: _"When a student stumbles and fails on their first and second attempts, it causes them to pay closer attention, and reach a proper understanding of their learning."_
+
 Even if you memorize just enough to pass the test, "easy come easy go." Without that cognitive friction, the knowledge evaporates the moment you close your editor.
 
 The best teachers and mentors I ever had understood this intuitively. When I was staring at a broken script knowing there was probably a stupidly easy fix, they didn’t just swoop in and drop the solution onto my screen (much to the vocal frustration of my sleep-deprived brain). 
