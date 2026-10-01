@@ -5,7 +5,6 @@ permalink: /learning-and-teaching-in-the-age-of-ai
 description: What happens to junior developers when we outsource the Socratic method to an LLM? Were the hardships a load-bearing friction all along? A reflection on AI yes-men, Chavrusa learning, and whether prompt engineering can ever replace human empathy.
 tagline: Why Socratic mentorship, active debugging, and human empathy can't be prompt-engineered away.
 header:
-  overlay_image: /assets/images/posts/robo-teacher.jpg
   teaser: /assets/images/posts/robo-teacher.jpg
 image: /assets/images/posts/robo-teacher.jpg
 tags:
