@@ -71,51 +71,36 @@ MATCHERS = {
   "[" => "]",
   "{" => "}"
 }
-```
 
-```ruby
 def paren_checker(string)
-```
 
-```ruby
-stack = []
-```
+  stack = []
 
-elsif CLOSERS.include?(char)
-```ruby
-string.split("").each do |char|
-  if OPENERS.include?(char)
-    stack.push(char)
-
-  elsif CLOSERS.include?(char)
-```
-
-```ruby
-    if MATCHERS[stack.last] == char
-      stack.pop
-    else
-      return false
-    end
-```
-
-```ruby
-  elsif VERSATILES.include?(char)
-```
-
-```ruby
-    if stack.last == char
-      stack.pop
-    else
+  string.split("").each do |char|
+    if OPENERS.include?(char)
       stack.push(char)
+
+    elsif CLOSERS.include?(char)
+
+      if MATCHERS[stack.last] == char
+        stack.pop
+      else
+        return false
+      end
+
+    elsif VERSATILES.include?(char)
+
+      if stack.last == char
+        stack.pop
+      else
+        stack.push(char)
+      end
+
     end
 
   end
-```
-
-```ruby
-end
-# Return true if the stack is empty (no opening parentheses left)
-stack.size == 0
+  # Return true if the stack is empty (no opening parentheses left)
+  stack.size == 0
 end
 ```
 

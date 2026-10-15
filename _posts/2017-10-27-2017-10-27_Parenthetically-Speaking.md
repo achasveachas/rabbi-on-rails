@@ -36,25 +36,19 @@ Let’s try that in JavaScript:
 
 ```javascript
 function parenthesesChecker(text) {
-```
 
-```javascript
-var open = 0
-var close = 0
-```
+  var open = 0
+  var close = 0
 
-```javascript
-for(i = 0; i < text.length; i ++) {
-  if(text[i] === "(") {
-    open += 1
-  } else if(text[i] === ")") {
-    close += 1
+  for(i = 0; i < text.length; i ++) {
+    if(text[i] === "(") {
+      open += 1
+    } else if(text[i] === ")") {
+      close += 1
+    }
   }
-}
-```
 
-```javascript
-return open === close
+  return open === close
 }
 ```
 
@@ -94,26 +88,20 @@ How would that look in JavaScript? Very similar to our last function:
 
 ```javascript
 function parenthesesChecker(text) {
-```
 
-```javascript
-var open = 0
-```
+  var open = 0
 
-```javascript
-for(i = 0; i < text.length; i ++) {
-  if(text[i] === "(") {
-    open += 1
-  } else if(text[i] === ")") {
-    open -= 1
+  for(i = 0; i < text.length; i ++) {
+    if(text[i] === "(") {
+      open += 1
+    } else if(text[i] === ")") {
+      open -= 1
+    }
+    if(open < 0)
+      return false
   }
-  if(open < 0)
-    return false
-}
-```
 
-```javascript
-return open === 0
+  return open === 0
 }
 ```
 

@@ -101,9 +101,7 @@ I actually ran `phone_form.methods-Object.methods` to remove any methods that we
 
 ```irb
 >> phone_form.methods - Object.methods
-```
 
-```irb
 => [:select, :index, :options, :label, :options=, :object, :multipart?, :submit, :object=, :fields, :to_partial_path, :to_model, :multipart, :date_select, :object_name, :time_select, :datetime_select, :fields_for, :text_field, :password_field, :hidden_field, :file_field, :text_area, :check_box, :radio_button, :color_field, :search_field, :telephone_field, :phone_field, :date_field, :time_field, :datetime_field, :datetime_local_field, :month_field, :week_field, :url_field, :email_field, :number_field, :range_field, :field_helpers, :field_helpers=, :multipart=, :button, :emitted_hidden_id?, :field_helpers?, :object_name=, :collection_select, :grouped_collection_select, :time_zone_select, :collection_radio_buttons, :collection_check_boxes, :model_name_from_record_or_class, :convert_to_model]
 ```
 

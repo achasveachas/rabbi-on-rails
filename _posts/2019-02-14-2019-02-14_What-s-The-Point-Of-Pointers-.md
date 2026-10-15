@@ -42,11 +42,9 @@ Being relatively new to the Go language, one of the features that confused me a 
 Consider the following code sample:
 
 ```go
-func increment(num int) { num+=1}
-```
+func increment(num int) { num+=1 }
 
-```go
-func main(){ var x = 1 increment(x) println(x)}
+func main(){ var x = 1 increment(x) println(x) }
 ```
 
 [Playground link](https://play.golang.org/p/fN1qIZD8Ycw)
@@ -58,11 +56,9 @@ The reason for this behavior is that when we call `increment(x)`, the increment 
 If we wanted `increment()` to increment the actual value of `x` we could modify our code as follows:
 
 ```go
-func increment(num *int) { *num+=1}
-```
+func increment(num *int) { *num+=1 }
 
-```go
-func main() { var x = 1 increment(&x) println(x)}
+func main() { var x = 1 increment(&x) println(x) }
 ```
 
 [Playground link](https://play.golang.org/p/dox_cvSjuQA)

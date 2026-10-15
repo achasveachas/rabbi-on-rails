@@ -41,21 +41,15 @@ One implementation (in pseudo-code) is as follows:
 
 ```javascript
 let indicator = 0
-```
 
-```javascript
 for (each char in the string) {
   if (char is not equal to the corresponding char in the string on file) {
     change the value of indicator by one
   }
 }
-```
 
-```javascript
 return true if the value of indicator is 0 // i.e. it was never changed due to a mismatched character
-```
 
-```javascript
 otherwise return false
 ```
 

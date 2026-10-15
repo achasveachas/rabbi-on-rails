@@ -38,38 +38,26 @@ In the end, my bot looked like this:
 ```javascript
 const twit = require('twit');
 require('dotenv').config()
-```
 
-```javascript
 const config = {
   consumer_key: process.env.consumer_key,
   consumer_secret: process.env.consumer_secret,
   access_token: process.env.access_token,
   access_token_secret: process.env.access_token_secret
 };
-```
 
-```javascript
 const Twitter = new twit(config);
-```
 
-```javascript
 const userID = '102773464';
-```
 
-```javascript
 const stream = Twitter.stream('statuses/filter', { follow: [userID] });
-```
 
-```javascript
 stream.on('tweet', function (tweet) {
   if (tweet.text.includes('suspended')) {
     retweet(tweet.id_str);
   }
 });
-```
 
-```javascript
 const retweet = function (id) {
   Twitter.post('statuses/retweet/:id', { id: id }, function (err, res) {
     if (res) {
