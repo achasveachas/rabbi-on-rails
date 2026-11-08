@@ -15,7 +15,7 @@ Don't get me wrong, helping, supporting, listening, lending our privilege to (an
 
 But on the other hand, I don't think I've ever read a sentence that began with "I'm an ally to X" that didn't end up implying the total opposite of allyship to X.
 
-In effect, people advertising their allyship has almost the same effect as people saying they are "the least [racist|misogynist|antisemitic|homophobic|etc.] person I know," you almost know for sure that what will follow that statement will make you cringe.
+In effect, people advertising their allyship has almost the same effect as people saying they are "the least [racist \| misogynist \| antisemitic \| homophobic \| etc.] person I know," you almost know for sure that what will follow that statement will make you cringe.
 
 I guess to me, allyship is not a title you achieve, something you can BECOME ("I am an ally"), it's something you DO. It's a way you live your life and something you have to be conscious of and keep doing on an ongoing basis.
 
